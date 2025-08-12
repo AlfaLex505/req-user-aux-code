@@ -1,0 +1,182 @@
+2.1.5   Cambio de Datos Personales
+2.1.5.1  Identificación del Documento
+2.1.5.1.1  Número (Documento/Movimiento)
+2.1.5.1.2  Fecha
+2.1.5.2  Datos Personales a Modificar
+2.1.5.2.1  RFC
+2.1.5.2.2  CURP
+2.1.5.2.3  Estado de Nacimiento
+2.1.5.2.4  Sexo
+2.1.5.2.5  Estado Civil
+2.1.5.2.6  Nombre
+2.1.5.2.7  Domicilio
+2.1.5.2.8  Población
+2.1.5.2.9  C.P.
+2.1.5.2.10  Nivel Académico
+2.1.5.2.11  e-mail
+2.1.5.2.12  Ingreso Gobierno
+2.1.5.2.13  SEP
+2.1.5.2.14  Subsistema
+2.1.5.2.15  Número de Seguridad Social
+2.1.5.2.16  Motivo
+2.1.5.2.17  PDA
+2.1.5.2.18  Unidad
+2.1.5.2.19  Subunidad
+2.1.5.2.20  Categoría/Puesto
+2.1.5.2.21  Horas
+2.1.5.2.22  Plaza
+2.1.5.2.23  Desde
+2.1.5.2.24  Hasta
+2.1.5.2.25  MSYS
+2.1.5.2.26  Nivel de Plaza
+2.1.5.2.27  Cuenta SAR
+2.1.5.2.28  Cuenta de Banco
+2.1.5.2.29  Bco
+2.1.5.2.30  Pza
+2.1.6   Licencias y Prórrogas
+2.1.6.1  Identificación del Documento
+2.1.6.1.1  Número (Documento/Movimiento)
+2.1.6.1.2  Fecha
+2.1.6.1.3  Centro de Trabajo
+2.1.6.1.4  RFC
+2.1.6.1.5  Nombre
+2.1.6.2  Plazas para Licencias
+2.1.6.2.1  Motivo
+2.1.6.2.2  Ptda
+2.1.6.2.3  Unidad
+2.1.6.2.4  Subunidad
+2.1.6.2.5  Categoría/Puesto
+2.1.6.2.6  Horas
+2.1.6.2.7  Plaza
+2.1.6.2.8  Desde
+2.1.6.2.9  Hasta
+2.1.7   Reanudación de Servicios
+2.1.7.1  Identificación del Documento
+2.1.7.1.1  Número (Documento/Movimiento)
+2.1.7.1.2  Fecha
+2.1.7.1.3  Centro de Trabajo
+2.1.7.1.4  RFC
+2.1.7.1.5  Nombre
+2.1.7.2  Plazas a Reanudar
+2.1.7.2.1  Motivo
+2.1.7.2.2  Partida
+2.1.7.2.3  Unidad
+2.1.7.2.4  Subunidad
+2.1.7.2.5  Categoría/Puesto
+2.1.7.2.6  Horas
+2.1.7.2.7  Plaza
+2.1.7.2.8  Desde
+3      Consulta y Procesos Especiales
+3.1      Consulta de Empleado
+3.1.1  Validación de Datos
+3.1.1.1  RFC
+3.1.1.2  Nombre
+3.1.1.3  CURP
+3.1.1.4  Quincena
+3.1.1.5  Quincena Baja
+3.1.1.6  Benef. PA
+3.1.2  Plaza del Empleado
+3.1.2.1  CP
+3.1.2.2  UN
+3.1.2.3  SUB
+3.1.2.4  Hrs
+3.1.2.5  Const/Plaza
+3.1.2.6  Centro de Trabajo
+3.1.3  Inherentes a la Plaza
+3.1.3.1  Percepciones
+3.1.3.1.1 Concepto
+3.1.3.1.2 Importe
+3.1.3.1.3 Desde
+3.1.3.1.4 Hasta
+3.1.3.2  Deducciones
+3.1.3.2.1 Concepto
+3.1.3.2.2 Importe
+3.1.3.2.3 Desde
+3.1.3.2.4 Hasta
+3.1.4  Inherentes al Empleado
+3.1.4.1  Percepciones
+3.1.4.1.1 Concepto
+3.1.4.1.2 Importe
+3.1.4.1.3 Desde
+3.1.4.1.4 Hasta
+3.1.4.2  Deducciones
+3.1.4.2.1 Concepto
+3.1.4.2.2 Importe
+3.1.4.2.3 Desde
+3.1.4.2.4 Hasta
+3.1.5  Selección de Opciones ????????????
+3.2      Consulta de Empleado con Plazas Activas
+3.2.1  Filiación (Ventana Emergente)
+3.2.2  Nombre (Ventana Emergente)
+3.2.3  Plazas Activas del Empleado
+3.2.4.1  CP
+3.2.4.2  UN
+3.2.4.3  Sub
+3.2.4.4  Categoría/Puesto
+3.2.4.5  Horas
+3.2.4.6  Plaza
+3.2.4.7  Desde
+3.2.4.8  Hasta
+3.2.4.9  Situación
+3.2.4.10 Motivo
+3.2.4.11 BP
+3.2.4.12 C.C.T.
+4      Administración y Control de Catálogos
+4.1      Auxiliares
+4.1.1  Parentesco
+4.1.2  Severidades
+4.1.3  Dependientes económicos
+4.1.4  Procesos
+4.1.5  Tipo de Licenciatura
+4.1.6  Área SEP
+4.1.7  Tipo de Titulación
+4.1.8  Código de Error de Sistema
+4.1.9  Nivel Académico
+4.1.10  Bancos
+4.1.11  Clave de Movimientos
+4.1.12  Bancos cuenta
+4.1.13  Aplicación de Movimientos
+4.1.14  Vía de inserción
+4.1.15  Motivos de Movimientos
+4.1.16  Vía de Mensaje
+4.1.17  Sexo
+4.1.18  Activos e Inactivos
+4.1.19  Partidas Motivos de Movimientos
+4.1.20  Estado Civil
+4.1.21  Motivo de Movimientos
+4.1.22.1 Clave
+4.1.22.2 Descripción
+4.1.22.3    Estatus_lec_hpe
+4.1.22.4 Estatus_esc_hpe
+4.1.22.5 Estatus_cie_hpe
+4.1.22.6 Estatus_lec_ep
+4.1.22.7 Estatus_esc_ep
+4.1.22.8 Estatus_cie_ep
+4.2      Modelos
+4.2.1  Modelos
+4.2.2  Bandera Categoría Puesto
+4.2.3  Modelos y Subsistemas
+4.2.4  Categorías, Puestos
+4.2.5  Modelos, Subsistemas y Sub-Subsistemas
+4.2.6  Categorías de basificación
+4.2.7  Partidas
+4.2.8  Categorías, Puestos, Conceptos
+4.2.9  Partidas y Conceptos
+4.2.10  Modelos, Conceptos de Pago
+4.2.11  Conceptos
+4.2.12  Conceptos Cálculo
+4.2.13  Referencia por Conceptos
+4.3      Plazas
+4.3.1  Unidades
+4.3.2  Subunidad
+4.3.3  Unidad-Subunidad
+4.3.4  Estatus
+4.3.5  Estructura orgánica
+4.3.6  Consulta Histórico Estatus
+4.3.7  Consulta Histórico por C.T.
+4.3.8  Afectación de Plazas
+4.3.9  Consulta
+4.3.10  Reportes
+4.3.11  Actualización
+4.3.12  Borrado de Plazas
+4.3.13  Motivo de Descongelación
