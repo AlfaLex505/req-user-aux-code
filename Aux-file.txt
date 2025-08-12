@@ -121,3 +121,62 @@
 3.X.X.X		Motivo
 3.X.X.X		BP
 3.X.X.X		C.C.T.
+4		    Administración y Control de Catálogos
+4.X		    Auxiliares
+4.X.X		Parentesco
+4.X.X		Severidades
+4.X.X		Dependientes económicos
+4.X.X		Procesos
+4.X.X		Tipo de Licenciatura
+4.X.X		Área SEP
+4.X.X		Tipo de Titulación
+4.X.X		Código de Error de Sistema
+4.X.X		Nivel Académico
+4.X.X		Bancos
+4.X.X		Clave de Movimientos
+4.X.X		Bancos cuenta
+4.X.X		Aplicación de Movimientos
+4.X.X		Vía de inserción
+4.X.X		Motivos de Movimientos
+4.X.X		Vía de Mensaje
+4.X.X		Sexo
+4.X.X		Activos e Inactivos
+4.X.X		Partidas Motivos de Movimientos
+4.X.X		Estado Civil
+4.X.X		Motivo de Movimientos
+4.X.X.X		Clave
+4.X.X.X		Descripción
+4.X.X.X		Estatus_lec_hpe
+4.X.X.X		Estatus_esc_hpe
+4.X.X.X		Estatus_cie_hpe
+4.X.X.X		Estatus_lec_ep
+4.X.X.X		Estatus_esc_ep
+4.X.X.X		Estatus_cie_ep
+4.X		    Modelos
+4.X.X		Modelos
+4.X.X		Bandera Categoría Puesto
+4.X.X		Modelos y Subsistemas
+4.X.X		Categorías, Puestos
+4.X.X		Modelos, Subsistemas y Sub-Subsistemas
+4.X.X		Categorías de basificación
+4.X.X		Partidas
+4.X.X		Categorías, Puestos, Conceptos
+4.X.X		Partidas y Conceptos
+4.X.X		Modelos, Conceptos de Pago
+4.X.X		Conceptos
+4.X.X		Conceptos Cálculo
+4.X.X		Referencia por Conceptos
+4.X		    Plazas
+4.X.X		Unidades
+4.X.X		Subunidad
+4.X.X		Unidad-Subunidad
+4.X.X		Estatus
+4.X.X		Estructura orgánica
+4.X.X		Consulta Histórico Estatus
+4.X.X		Consulta Histórico por C.T.
+4.X.X		Afectación de Plazas
+4.X.X		Consulta
+4.X.X		Reportes
+4.X.X		Actualización
+4.X.X		Borrado de Plazas
+4.X.X		Motivo de Descongelación
