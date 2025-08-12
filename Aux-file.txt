@@ -66,6 +66,42 @@
 2.1.7.X.X 	Horas
 2.1.7.X.X 	Plaza
 2.1.7.X.X 	Desde
-3		Consulta y Procesos Especiales
-3.X		Consulta de Empleado
-3.X		Consulta de Empleado con Plazas Activas
+3		    Consulta y Procesos Especiales
+3.X		    Consulta de Empleado
+3.X.X		Validación de Datos
+3.X.X.X		RFC
+3.X.X.X		Nombre
+3.X.X.X		CURP
+3.X.X.X		Quincena
+3.X.X.X		Quincena Baja
+3.X.X.X		Benef. PA
+3.X.X		Plaza del Empleado
+3.X.X.X		CP
+3.X.X.X		UN
+3.X.X.X		SUB
+3.X.X.X		Hrs
+3.X.X.X		Const/Plaza
+3.X.X.X		Centro de Trabajo
+3.X.X		Inherentes a la Plaza
+3.X.X.X		Percepciones
+3.X.X.X.X	Concepto
+3.X.X.X.X	Importe
+3.X.X.X.X	Desde
+3.X.X.X.X	Hasta
+3.X.X.X 	Deducciones
+3.X.X.X.X	Concepto
+3.X.X.X.X	Importe
+3.X.X.X.X	Desde
+3.X.X.X.X	Hasta
+3.X.X		Inherentes al Empleado
+3.X.X.X		Percepciones
+3.X.X.X.X	Concepto
+3.X.X.X.X	Importe
+3.X.X.X.X	Desde
+3.X.X.X.X	Hasta
+3.X.X.X 	Deducciones
+3.X.X.X.X	Concepto
+3.X.X.X.X	Importe
+3.X.X.X.X	Desde
+3.X.X.X.X	Hasta
+3.X.X		Selección de Opciones ????????????
