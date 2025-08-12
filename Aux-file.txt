@@ -1,0 +1,71 @@
+2.1.5 		Cambio de Datos Personales
+2.1.5.X 	Identificación del Documento
+2.1.5.X.X 	Número (Documento/Movimiento)
+2.1.5.X.X 	Fecha
+2.1.5.X 	Datos Personales a Modificar
+2.1.5.X.X 	RFC
+2.1.5.X.X 	CURP
+2.1.5.X.X 	Estado de Nacimiento
+2.1.5.X.X 	Sexo
+2.1.5.X.X 	Estado Civil
+2.1.5.X.X 	Nombre
+2.1.5.X.X 	Domicilio
+2.1.5.X.X 	Población
+2.1.5.X.X 	C.P.
+2.1.5.X.X 	Nivel Académico
+2.1.5.X.X 	e-mail
+2.1.5.X.X 	Ingreso Gobierno
+2.1.5.X.X 	SEP
+2.1.5.X.X 	Subsistema
+2.1.5.X.X 	Número de Seguridad Social
+2.1.5.X.X 	Motivo
+2.1.5.X.X 	PDA
+2.1.5.X.X 	Unidad
+2.1.5.X.X 	Subunidad
+2.1.5.X.X 	Categoría/Puesto
+2.1.5.X.X 	Horas
+2.1.5.X.X 	Plaza
+2.1.5.X.X 	Desde
+2.1.5.X.X 	Hasta
+2.1.5.X.X 	MSYS
+2.1.5.X.X 	Nivel de Plaza
+2.1.5.X.X 	Cuenta SAR
+2.1.5.X.X 	Cuenta de Banco
+2.1.5.X.X 	Bco
+2.1.5.X.X 	Pza
+2.1.6 		Licencias y Prórrogas
+2.1.6.X 	Identificación del Documento
+2.1.6.X.X 	Número (Documento/Movimiento)
+2.1.6.X.X 	Fecha
+2.1.6.X.X 	Centro de Trabajo
+2.1.6.X.X 	RFC
+2.1.6.X.X 	Nombre
+2.1.6.X 	Plazas para Licencias
+2.1.6.X.X 	Motivo
+2.1.6.X.X 	Ptda
+2.1.6.X.X 	Unidad
+2.1.6.X.X 	Subunidad
+2.1.6.X.X 	Categoría/Puesto
+2.1.6.X.X 	Horas
+2.1.6.X.X 	Plaza
+2.1.6.X.X 	Desde
+2.1.6.X.X 	Hasta
+2.1.7 		Reanudación de Servicios
+2.1.7.X 	Identificación del Documento
+2.1.7.X.X 	Número (Documento/Movimiento)
+2.1.7.X.X 	Fecha
+2.1.7.X.X 	Centro de Trabajo
+2.1.7.X.X 	RFC
+2.1.7.X.X 	Nombre
+2.1.7.X 	Plazas a Reanudar
+2.1.7.X.X 	Motivo
+2.1.7.X.X 	Partida
+2.1.7.X.X 	Unidad
+2.1.7.X.X 	Subunidad
+2.1.7.X.X 	Categoría/Puesto
+2.1.7.X.X 	Horas
+2.1.7.X.X 	Plaza
+2.1.7.X.X 	Desde
+3		Consulta y Procesos Especiales
+3.X		Consulta de Empleado
+3.X		Consulta de Empleado con Plazas Activas
