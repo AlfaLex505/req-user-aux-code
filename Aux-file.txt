@@ -105,3 +105,19 @@
 3.X.X.X.X	Desde
 3.X.X.X.X	Hasta
 3.X.X		Selección de Opciones ????????????
+3.X		    Consulta de Empleado con Plazas Activas
+3.X.X		Filiación (Ventana Emergente)
+3.X.X		Nombre (Ventana Emergente)
+3.X.X		Plazas Activas del Empleado
+3.X.X.X		CP
+3.X.X.X		UN
+3.X.X.X		Sub
+3.X.X.X		Categoría/Puesto
+3.X.X.X		Horas
+3.X.X.X		Plaza
+3.X.X.X		Desde
+3.X.X.X		Hasta
+3.X.X.X		Situación
+3.X.X.X		Motivo
+3.X.X.X		BP
+3.X.X.X		C.C.T.
