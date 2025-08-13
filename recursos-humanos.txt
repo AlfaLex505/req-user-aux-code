@@ -139,7 +139,16 @@
 1.X.X.X.X.X     Sostenimiento
 1.X.X.X.X       Regla - Compatibilidad de Horas
 1.X.X.X         Validar
-
+1.X.X.X.X       Visualizar los datos y Documentos
+1.X.X.X.X.X     Historia de Plaza del Trabajador
+1.X.X.X.X.X     Movimientos
+1.X.X.X.X.X     Revisión Documental
+1.X.X.X.X.X     Cancelar
+1.X.X.X.X.X     Rechazar
+1.X.X.X.X.X     Anular
+1.X.X.X.X.X     Finalizar
+1.X.X.X.X       Oficio de Asignación
+1.X.X.X.X       Código QR     
 1.X.X.X         Toma de Posesión
 1.X.X           Reportes
 1.X.X           Usuarios
