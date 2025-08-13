@@ -63,6 +63,24 @@
 1.X.X.X.X.X     Recomendaciones
 1.X.X.X.X       Generación de Formato PDF - Asignación_CURP.pdf
 1.X.X.X         Atención tras Creación de Incidencia
+1.X.X.X.X       Primera Validación de Solicitud
+1.X.X.X.X.X     Acciones
+1.X.X.X.X.X.X   Editar
+1.X.X.X.X.X.X   Eliminar
+1.X.X.X.X.X.X   Ver
+1.X.X.X.X.X.X   Validar
+1.X.X.X.X.X.X   Validar
+1.X.X.X.X.X     Aprobar Datos de Trámite
+1.X.X.X.X.X     Revisión Documental
+1.X.X.X.X.X.X   Ver
+1.X.X.X.X.X.X   Descargar
+1.X.X.X.X.X.X   Casillas Aprobada
+1.X.X.X.X.X.X   Campo Motivo de Rechazo
+1.X.X.X.X.X     Comentarios
+1.X.X.X.X.X.X   Botón - Cancelar
+1.X.X.X.X.X.X   Botón - Anular
+1.X.X.X.X.X.X   Botón - Finalizar
+1.X.X.X.X       Crear Preformato
 1.X.X           Preformatos
 1.X.X           Reportes
 1.X.X           Usuarios
