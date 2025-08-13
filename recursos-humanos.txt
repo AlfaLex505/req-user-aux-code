@@ -222,10 +222,10 @@
 1.X.X.X.X       RFC
 1.X.X.X.X       CURP
 1.X.X.X.X       Entidad Federativa (Estado)
-1.X.X.X.X       Cento de Trabajo Clasificación
-1.X.X.X.X       Cento de Trabajo ID
-1.X.X.X.X       Cento de Trabajo Secuencia
-1.X.X.X.X       Cento de Trabajo Dígito
+1.X.X.X.X       Centro de Trabajo Clasificación
+1.X.X.X.X       Centro de Trabajo ID
+1.X.X.X.X       Centro de Trabajo Secuencia
+1.X.X.X.X       Centro de Trabajo Dígito
 1.X.X.X.X       Código de Pago
 1.X.X.X.X       Unidad
 1.X.X.X.X       Subunidad
@@ -239,4 +239,31 @@
 1.X.X.X.X       Centro de Trabajo Destino
 1.X.X.X.X       Transferencia de Plaza
 1.X.X           Usuarios
+1.X.X.X         Centro de Trabajo
+1.X.X.X         Capturista
+1.X.X.X         Validador
+1.X.X.X         Administrador
 2               Generalidades
+2.X             ST (estatus_plaza)
+2.X             Clave Presupuestal
+2.X             Unidad Presupuestal
+2.X             No. Consecutivo
+2.X             RFC
+2.X             Nombre
+2.X             Código de Pago (Sin espacios ni puntos)
+2.X             Categoría
+2.X             Código de Pago
+2.X             Tipo de Plaza
+2.X             Fecha Ingreso
+2.X             Tipo de Plaza
+2.X             Fecha Ingreso
+2.X             Tipo de Plaza
+2.X             Nivel de Sueldo
+2.X             Jornada
+2.X             Naturaleza de la Función
+2.X             Plaza Sindicalizada
+2.X             Costeo de Remuneraciones de cada una de las Plazas
+2.X             Incremento (Columna HS)
+2.X             Región (Zona de Vida Cara) (Columna UH)
+2.X             Costo de la Plantilla
+2.X             Bolsa
