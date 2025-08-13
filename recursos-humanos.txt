@@ -59,116 +59,114 @@
 2.X.X.X         Número de Sanción
 2.X.X.X         Recomendaciones
 2.X.X           Generación de Formato PDF - Asignación_CURP.pdf
-
-1.X.X.X         Atención tras Creación de Incidencia
-1.X.X.X.X       Primera Validación de Solicitud
-1.X.X.X.X.X     Acciones
-1.X.X.X.X.X.X   Editar
-1.X.X.X.X.X.X   Eliminar
-1.X.X.X.X.X.X   Ver
-1.X.X.X.X.X.X   Validar
-1.X.X.X.X.X.X   Validar
-1.X.X.X.X.X     Aprobar Datos de Trámite
-1.X.X.X.X.X     Revisión Documental
-1.X.X.X.X.X.X   Ver
-1.X.X.X.X.X.X   Descargar
-1.X.X.X.X.X.X   Casillas Aprobada
-1.X.X.X.X.X.X   Campo Motivo de Rechazo
-1.X.X.X.X.X     Comentarios
-1.X.X.X.X.X.X   Botón - Cancelar
-1.X.X.X.X.X.X   Botón - Anular
-1.X.X.X.X.X.X   Botón - Finalizar
-1.X.X.X.X       Crear Preformato
-1.X.X.X.X.X     Acciones
-1.X.X.X.X.X.X   Nombre de quien genera la vacante
-1.X.X.X.X.X.X   Año
-1.X.X.X.X.X.X   Motivo de la vacante
-1.X.X.X.X.X.X   Mov a la seguridad social
-1.X.X.X.X.X.X   Turno
-1.X.X.X.X.X     Historia de Plaza del Trabajador
-1.X.X.X.X.X.X   Código
-1.X.X.X.X.X.X   Unidad
-1.X.X.X.X.X.X   Subunidad
-1.X.X.X.X.X.X   Categoría
-1.X.X.X.X.X.X   Horas
-1.X.X.X.X.X.X   Consecutivo
-1.X.X.X.X.X.X   Desde
-1.X.X.X.X.X.X   Hasta
-1.X.X.X.X.X.X   Motivo
-1.X.X.X.X.X.X   CT Actual
-1.X.X.X.X.X.X   Sostenimiento
-1.X.X.X.X.X     Movimientos
-1.X.X.X.X.X.X   Agregar Plaza
-1.X.X.X.X.X.X   Estatus
-1.X.X.X.X.X.X   Ícono - Buscar
-1.X.X.X.X.X.X   Acciones
-1.X.X.X.X.X.X   Sustituido
-1.X.X.X.X.X.X   Plaza
-1.X.X.X.X.X.X   Movimiento
-1.X.X.X.X.X.X   Motivo
-1.X.X.X.X.X.X   Desde
-1.X.X.X.X.X.X   Hasta
-1.X.X.X.X.X.X   CT Nómina
-1.X.X.X.X.X.X   CT Laboral
-1.X.X.X.X.X     Revisión Documental
-1.X.X.X.X.X     Validación Reglas   
-1.X.X           Preformatos
-1.X.X.X         Visualización (Lente/Lupa)
-1.X.X.X.X       Datos del Trabajador y su Solicitud
-1.X.X.X.X.X     Función
-1.X.X.X.X.X     Subfunción
-1.X.X.X.X.X     Especialidad
-1.X.X.X.X.X     Movimiento
-1.X.X.X.X.X     RFC
-1.X.X.X.X.X     CURP
-1.X.X.X.X.X     NSS
-1.X.X.X.X.X     Turno
-1.X.X.X.X       Historia de Plaza del Trabajador
-1.X.X.X.X.X     Código
-1.X.X.X.X.X     Unidad
-1.X.X.X.X.X     Subunidad
-1.X.X.X.X.X     Categoría
-1.X.X.X.X.X     Horas
-1.X.X.X.X.X     Consecutivo
-1.X.X.X.X.X     Desde
-1.X.X.X.X.X     Hasta
-1.X.X.X.X.X     Motivo
-1.X.X.X.X.X     CT Actual
-1.X.X.X.X.X     Sostenimiento
-1.X.X.X.X       Regla - Compatibilidad de Horas
-1.X.X.X         Validar
-1.X.X.X.X       Visualizar los datos y Documentos
-1.X.X.X.X.X     Historia de Plaza del Trabajador
-1.X.X.X.X.X     Movimientos
-1.X.X.X.X.X     Revisión Documental
-1.X.X.X.X.X     Cancelar
-1.X.X.X.X.X     Rechazar
-1.X.X.X.X.X     Anular
-1.X.X.X.X.X     Finalizar
-1.X.X.X.X       Oficio de Asignación
-1.X.X.X.X       Código QR     
-1.X.X.X         Toma de Posesión
-1.X.X.X.X       Toma de Posesión
-1.X.X.X.X.X     Nombre
-1.X.X.X.X.X     Sostenimiento
-1.X.X.X.X.X     Función
-1.X.X.X.X.X     Subfunción
-1.X.X.X.X.X     Especialidad
-1.X.X.X.X.X     Botón - Confirmar
-1.X.X.X.X.X     Botón - No se Presentó
-1.X.X.X.X.X     Botón - Cancelar
-1.X.X.X.X       Caso: No se Presentó
-1.X.X.X.X       Ícono de Editar
-1.X.X.X.X.X     Toma de Posesión
-1.X.X.X.X.X.X   Nombre
-1.X.X.X.X.X.X   Sostenimiento
-1.X.X.X.X.X.X   Función
-1.X.X.X.X.X.X   Subfunción
-1.X.X.X.X.X.X   Especialidad
-1.X.X.X.X.X.X   Botón - Se Presentó
-1.X.X.X.X.X.X   Botón - Liberar Toma de Posesión
-1.X.X.X.X.X.X   Botón - Cerrar
-1.X.X           Reportes
+2.X             Atención tras Creación de Incidencia
+2.X.X           Primera Validación de Solicitud
+2.X.X.X         Acciones
+2.X.X.X.X       Editar
+2.X.X.X.X       Eliminar
+2.X.X.X.X       Ver
+2.X.X.X.X       Validar
+2.X.X.X         Aprobar Datos de Trámite
+2.X.X.X         Revisión Documental
+2.X.X.X.X       Ver
+2.X.X.X.X       Descargar
+2.X.X.X.X       Casillas Aprobada
+2.X.X.X.X       Campo Motivo de Rechazo
+2.X.X.X         Comentarios
+2.X.X.X.X       Botón - Cancelar
+2.X.X.X.X       Botón - Anular
+2.X.X.X.X       Botón - Finalizar
+2.X.X           Crear Preformato
+2.X.X.X         Acciones
+2.X.X.X.X       Nombre de quien genera la vacante
+2.X.X.X.X       Año
+2.X.X.X.X       Motivo de la vacante
+2.X.X.X.X       Mov a la seguridad social
+2.X.X.X.X       Turno
+2.X.X.X         Historia de Plaza del Trabajador
+2.X.X.X.X       Código
+2.X.X.X.X       Unidad
+2.X.X.X.X       Subunidad
+2.X.X.X.X       Categoría
+2.X.X.X.X       Horas
+2.X.X.X.X       Consecutivo
+2.X.X.X.X       Desde
+2.X.X.X.X       Hasta
+2.X.X.X.X       Motivo
+2.X.X.X.X       CT Actual
+2.X.X.X.X       Sostenimiento
+2.X.X.X         Movimientos
+2.X.X.X.X       Agregar Plaza
+2.X.X.X.X       Estatus
+2.X.X.X.X       Ícono - Buscar
+2.X.X.X.X       Acciones
+2.X.X.X.X       Sustituido
+2.X.X.X.X       Plaza
+2.X.X.X.X       Movimiento
+2.X.X.X.X       Motivo
+2.X.X.X.X       Desde
+2.X.X.X.X       Hasta
+2.X.X.X.X       CT Nómina
+2.X.X.X.X       CT Laboral
+2.X.X.X         Revisión Documental
+2.X.X.X         Validación Reglas   
+3               Preformatos
+3.X             Visualización (Lente/Lupa)
+3.X.X           Datos del Trabajador y su Solicitud
+3.X.X.X         Función
+3.X.X.X         Subfunción
+3.X.X.X         Especialidad
+3.X.X.X         Movimiento
+3.X.X.X         RFC
+3.X.X.X         CURP
+3.X.X.X         NSS
+3.X.X.X         Turno
+3.X.X           Historia de Plaza del Trabajador
+3.X.X.X         Código
+3.X.X.X         Unidad
+3.X.X.X         Subunidad
+3.X.X.X         Categoría
+3.X.X.X         Horas
+3.X.X.X         Consecutivo
+3.X.X.X         Desde
+3.X.X.X         Hasta
+3.X.X.X         Motivo
+3.X.X.X         CT Actual
+3.X.X.X         Sostenimiento
+3.X.X           Regla - Compatibilidad de Horas
+3.X             Validar
+3.X.X           Visualizar los datos y Documentos
+3.X.X.X         Historia de Plaza del Trabajador
+3.X.X.X         Movimientos
+3.X.X.X         Revisión Documental
+3.X.X.X         Cancelar
+3.X.X.X         Rechazar
+3.X.X.X         Anular
+3.X.X.X         Finalizar
+3.X.X           Oficio de Asignación
+3.X.X           Código QR     
+3.X             Toma de Posesión
+3.X.X           Toma de Posesión
+3.X.X.X         Nombre
+3.X.X.X         Sostenimiento
+3.X.X.X         Función
+3.X.X.X         Subfunción
+3.X.X.X         Especialidad
+3.X.X.X         Botón - Confirmar
+3.X.X.X         Botón - No se Presentó
+3.X.X.X         Botón - Cancelar
+3.X.X           Caso: No se Presentó
+3.X.X           Ícono de Editar
+3.X.X.X         Toma de Posesión
+3.X.X.X.X       Nombre
+3.X.X.X.X       Sostenimiento
+3.X.X.X.X       Función
+3.X.X.X.X       Subfunción
+3.X.X.X.X       Especialidad
+3.X.X.X.X       Botón - Se Presentó
+3.X.X.X.X       Botón - Liberar Toma de Posesión
+3.X.X.X.X       Botón - Cerrar
+4               Reportes
 1.X.X.X         Filtros
 1.X.X.X         Tipos de Reporte
 1.X.X.X         Generación de Reporte
