@@ -1,0 +1,29 @@
+1               Herramientas Actuales
+1.X             Mi Preformato (Menu Principal)
+1.X.X           Solicitud de Trámite
+1.X.X.X         Consulta
+1.X.X.X.X       Filtros
+1.X.X.X.X.X     Fecha de Inicio
+1.X.X.X.X.X     Fecha de Fin
+1.X.X.X.X.X     Revisión Documental
+1.X.X.X.X.X     Estatus Preformato
+1.X.X.X.X.X     Toma de posesión
+1.X.X.X.X       Pantalla Principal
+1.X.X.X.X.X     Fecha
+1.X.X.X.X.X     Zona
+1.X.X.X.X.X     Función
+1.X.X.X.X.X     CCT
+1.X.X.X.X.X     Movimiento
+1.X.X.X.X.X     RFC
+1.X.X.X.X       Etapas de Autorización
+1.X.X.X.X.X     Revisión Documental
+1.X.X.X.X.X     Estatus Preformato
+1.X.X.X.X.X     Oficio de Asignación
+1.X.X.X.X.X     Toma de Posesión
+1.X.X.X.X.X     Acciones
+1.X.X.X         Crear incidencia
+1.X.X.X         Atención tras Creación de Incidencia
+1.X.X           Preformatos
+1.X.X           Reportes
+1.X.X           Usuarios
+2               Generalidades
