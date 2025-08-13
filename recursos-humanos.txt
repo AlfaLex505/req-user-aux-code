@@ -115,6 +115,32 @@
 1.X.X.X.X.X     Revisión Documental
 1.X.X.X.X.X     Validación Reglas   
 1.X.X           Preformatos
+1.X.X.X         Visualización (Lente/Lupa)
+1.X.X.X.X       Datos del Trabajador y su Solicitud
+1.X.X.X.X.X     Función
+1.X.X.X.X.X     Subfunción
+1.X.X.X.X.X     Especialidad
+1.X.X.X.X.X     Movimiento
+1.X.X.X.X.X     RFC
+1.X.X.X.X.X     CURP
+1.X.X.X.X.X     NSS
+1.X.X.X.X.X     Turno
+1.X.X.X.X       Historia de Plaza del Trabajador
+1.X.X.X.X.X     Código
+1.X.X.X.X.X     Unidad
+1.X.X.X.X.X     Subunidad
+1.X.X.X.X.X     Categoría
+1.X.X.X.X.X     Horas
+1.X.X.X.X.X     Consecutivo
+1.X.X.X.X.X     Desde
+1.X.X.X.X.X     Hasta
+1.X.X.X.X.X     Motivo
+1.X.X.X.X.X     CT Actual
+1.X.X.X.X.X     Sostenimiento
+1.X.X.X.X       Regla - Compatibilidad de Horas
+1.X.X.X         Validar
+
+1.X.X.X         Toma de Posesión
 1.X.X           Reportes
 1.X.X           Usuarios
 2               Generalidades
