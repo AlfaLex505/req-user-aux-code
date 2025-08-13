@@ -81,6 +81,39 @@
 1.X.X.X.X.X.X   Botón - Anular
 1.X.X.X.X.X.X   Botón - Finalizar
 1.X.X.X.X       Crear Preformato
+1.X.X.X.X.X     Acciones
+1.X.X.X.X.X.X   Nombre de quien genera la vacante
+1.X.X.X.X.X.X   Año
+1.X.X.X.X.X.X   Motivo de la vacante
+1.X.X.X.X.X.X   Mov a la seguridad social
+1.X.X.X.X.X.X   Turno
+1.X.X.X.X.X     Historia de Plaza del Trabajador
+1.X.X.X.X.X.X   Código
+1.X.X.X.X.X.X   Unidad
+1.X.X.X.X.X.X   Subunidad
+1.X.X.X.X.X.X   Categoría
+1.X.X.X.X.X.X   Horas
+1.X.X.X.X.X.X   Consecutivo
+1.X.X.X.X.X.X   Desde
+1.X.X.X.X.X.X   Hasta
+1.X.X.X.X.X.X   Motivo
+1.X.X.X.X.X.X   CT Actual
+1.X.X.X.X.X.X   Sostenimiento
+1.X.X.X.X.X     Movimientos
+1.X.X.X.X.X.X   Agregar Plaza
+1.X.X.X.X.X.X   Estatus
+1.X.X.X.X.X.X   Ícono - Buscar
+1.X.X.X.X.X.X   Acciones
+1.X.X.X.X.X.X   Sustituido
+1.X.X.X.X.X.X   Plaza
+1.X.X.X.X.X.X   Movimiento
+1.X.X.X.X.X.X   Motivo
+1.X.X.X.X.X.X   Desde
+1.X.X.X.X.X.X   Hasta
+1.X.X.X.X.X.X   CT Nómina
+1.X.X.X.X.X.X   CT Laboral
+1.X.X.X.X.X     Revisión Documental
+1.X.X.X.X.X     Validación Reglas   
 1.X.X           Preformatos
 1.X.X           Reportes
 1.X.X           Usuarios
