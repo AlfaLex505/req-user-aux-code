@@ -22,6 +22,46 @@
 1.X.X.X.X.X     Toma de Posesión
 1.X.X.X.X.X     Acciones
 1.X.X.X         Crear incidencia
+1.X.X.X.X       Información del Solicitante
+1.X.X.X.X.X     Sostenimiento
+1.X.X.X.X.X     Nivel
+1.X.X.X.X.X     Zona
+1.X.X.X.X.X     Clave CVT
+1.X.X.X.X.X     Función
+1.X.X.X.X.X     Subfunción
+1.X.X.X.X.X     Especialidad
+1.X.X.X.X.X     Tipo de Movimiento
+1.X.X.X.X.X     RFC del Trabajador
+1.X.X.X.X.X     Nombre
+1.X.X.X.X.X     NSS IMSS
+1.X.X.X.X.X     CURP
+1.X.X.X.X.X     Estado de Nacimiento
+1.X.X.X.X.X     Domicilio - Calle
+1.X.X.X.X.X     Domicilio - Colonia
+1.X.X.X.X.X     Domicilio - Ciudad
+1.X.X.X.X.X     Domicilio - CP
+1.X.X.X.X.X     Correo electrónico
+1.X.X.X.X.X     Teléfono
+1.X.X.X.X.X     Sexo
+1.X.X.X.X.X     Estado Civil
+1.X.X.X.X.X     Nivel Académico
+1.X.X.X.X       Cargar Archivos
+1.X.X.X.X.X     Archivos
+1.X.X.X.X.X.X   Propuesta
+1.X.X.X.X.X.X   INE
+1.X.X.X.X.X.X   Validación
+1.X.X.X.X.X.X   Perfil
+1.X.X.X.X.X.X   Validación
+1.X.X.X.X.X.X   Perfil
+1.X.X.X.X.X.X   Domicilio
+1.X.X.X.X.X.X   NSS
+1.X.X.X.X       Cargar Archivos Adicionales
+1.X.X.X.X.X     RFC
+1.X.X.X.X.X     Certificado Médico
+1.X.X.X.X.X     Carta de No Antecedentes Penales
+1.X.X.X.X.X     Número de Sanción
+1.X.X.X.X.X     Recomendaciones
+1.X.X.X.X       Generación de Formato PDF - Asignación_CURP.pdf
 1.X.X.X         Atención tras Creación de Incidencia
 1.X.X           Preformatos
 1.X.X           Reportes
