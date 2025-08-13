@@ -150,6 +150,26 @@
 1.X.X.X.X       Oficio de Asignación
 1.X.X.X.X       Código QR     
 1.X.X.X         Toma de Posesión
+1.X.X.X.X       Toma de Posesión
+1.X.X.X.X.X     Nombre
+1.X.X.X.X.X     Sostenimiento
+1.X.X.X.X.X     Función
+1.X.X.X.X.X     Subfunción
+1.X.X.X.X.X     Especialidad
+1.X.X.X.X.X     Botón - Confirmar
+1.X.X.X.X.X     Botón - No se Presentó
+1.X.X.X.X.X     Botón - Cancelar
+1.X.X.X.X       Caso: No se Presentó
+1.X.X.X.X       Ícono de Editar
+1.X.X.X.X.X     Toma de Posesión
+1.X.X.X.X.X.X   Nombre
+1.X.X.X.X.X.X   Sostenimiento
+1.X.X.X.X.X.X   Función
+1.X.X.X.X.X.X   Subfunción
+1.X.X.X.X.X.X   Especialidad
+1.X.X.X.X.X.X   Botón - Se Presentó
+1.X.X.X.X.X.X   Botón - Liberar Toma de Posesión
+1.X.X.X.X.X.X   Botón - Cerrar
 1.X.X           Reportes
 1.X.X           Usuarios
 2               Generalidades
