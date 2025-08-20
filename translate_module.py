@@ -64,7 +64,9 @@ def merge_lists(all_versions, text_list):
     Function for merging both lists together.
     """
     if len(all_versions) != len(text_list):
-        return print("List doesn't match their lenghts!")
+        return print(f"List doesn't match their lenghts!\n" +
+                     f"Version list lenght: {len(all_versions)}\n" +
+                     f"Text list lenght: {len(text_list)}")
     
     for i in range(len(all_versions)):
         while '0' in all_versions[i]:
@@ -75,7 +77,7 @@ def merge_lists(all_versions, text_list):
     for i in range(len(all_versions)):
         complete_str = all_versions[i] + text_list[i] + '\n'
         
-        with open('recursos-humanos-output.txt', mode = 'a+', errors = 'ignore',
+        with open('req-funcionales-output.txt', mode = 'a+', errors = 'ignore',
         encoding = 'utf-8') as file_ptr:
             file_ptr.write(complete_str)
 
@@ -84,7 +86,7 @@ def main():
     """
     Main function.
     """
-    file_name = 'recursos-humanos.txt'
+    file_name = 'req-funcionales.txt'
     all_versions = translate_x(file_name)
     text_list = read_text(file_name)
     merge_lists(all_versions, text_list)
