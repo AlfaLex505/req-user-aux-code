@@ -217,44 +217,45 @@
 16.3.5.2 En el campo plantel educativo pondrá el nombre autorizado del plantel + el número de expediente.
 16.3.5.3 Registrará el nombre del ejecutivo
 16.3.5.4 Registrará la fecha
-18 Notificación de Documentos
-18.1 Serán campos donde el ejecutivo CIRE podrá cargar el documento, una vez cargado será enviado a las diferentes áreas y en el caso de delegaciones regionales y control escolar según corresponda al trámite llegando a cada uno la notificación correspondiente mediante el sistema y vía correo electrónico.
-18.2 Deberá mostrar la fecha en que el documento fue abierto. Previo a la carga de documentos:    
-18.2.1 El ejecutivo en el campo oficio control escolar al dar doble click devolverá el valor que corresponda al número de oficio.
-18.2.1.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                        en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                        en **dirigido a**; el nombre del TITULAR CONTROL ESCOLAR, según corresponda.                        **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                        **Fecha**; fecha en que se asigna                        **Número**; el número consecutivo.            
-18.2.1.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.2.1.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.2.1.4 El área de control escolar según corresponda recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
-18.3 El ejecutivo en el campo oficio estadística al dar doble click devolverá el valor que corresponda al número de oficio.
-18.3.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la dirección de estadística.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.3.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.3.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.3.4 La dirección de estadística recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
-18.4 El ejecutivo en el campo Oficio Nivel Educativo al dar doble click devolverá el valor que corresponda al número de oficio.
-18.4.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular del nivel educativo, según corresponda.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.4.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.4.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.4.4 El nivel educativo recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
-18.5 El ejecutivo en el campo oficio Becas al dar doble click devolverá el valor que corresponda al número de oficio.
-18.5.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la Becas.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.5.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.5.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.5.4 La Dirección de Becas recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
-18.5.5 El ejecutivo en el campo oficio DRSE al dar doble click devolverá el valor que corresponda al número de oficio.
-18.5.6 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la DRSE, según corresponda.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.5.7 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.5.8 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.5.9 La Delegación Regional recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
-18.6 El ejecutivo en el campo oficio Modelo Sello al dar doble click devolverá el valor que corresponda al número de oficio.
-18.6.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del particular.                **asunto**;  la Leyenda Modelo de Sello + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.6.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.6.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.6.4 El ejecutivo CIRE deberá contar con un botón donde podrá cargar el documento .
-18.7 El ejecutivo en el campo Oficio Cuestionarios al dar doble click devolverá el valor que corresponda al número de oficio.
-18.7.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del particular                **asunto**;  la Leyenda Cuestionarios y Control Escolar + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
-18.7.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
-18.7.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
-18.7.4 El ejecutivo CIRE deberá contar con un botón donde cargará el documento.
+17 Notificación de Documentos
+17.1 Serán campos donde el ejecutivo CIRE podrá cargar el documento, una vez cargado será enviado a las diferentes áreas y en el caso de delegaciones regionales y control escolar según corresponda al trámite llegando a cada uno la notificación correspondiente mediante el sistema y vía correo electrónico.
+17.2 Deberá mostrar la fecha en que el documento fue abierto. Previo a la carga de documentos:    
+17.2.1 El ejecutivo en el campo oficio control escolar al dar doble click devolverá el valor que corresponda al número de oficio.
+17.2.1.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                        en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                        en **dirigido a**; el nombre del TITULAR CONTROL ESCOLAR, según corresponda.                        **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                        **Fecha**; fecha en que se asigna                        **Número**; el número consecutivo.            
+17.2.1.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.2.1.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.2.1.4 El área de control escolar según corresponda recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
+17.3 El ejecutivo en el campo oficio estadística al dar doble click devolverá el valor que corresponda al número de oficio.
+17.3.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la dirección de estadística.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.3.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.3.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.3.4 La dirección de estadística recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
+17.4 El ejecutivo en el campo Oficio Nivel Educativo al dar doble click devolverá el valor que corresponda al número de oficio.
+17.4.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular del nivel educativo, según corresponda.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.4.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.4.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.4.4 El nivel educativo recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
+17.5 El ejecutivo en el campo oficio Becas al dar doble click devolverá el valor que corresponda al número de oficio.
+17.5.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la Becas.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.5.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.5.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.5.4 La Dirección de Becas recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
+17.5.5 El ejecutivo en el campo oficio DRSE al dar doble click devolverá el valor que corresponda al número de oficio.
+17.5.6 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la DRSE, según corresponda.                **asunto**;  la Leyenda NOTIFICACIÓN + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.5.7 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.5.8 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.5.9 La Delegación Regional recibirá una notificación en el sistema y por correo electrónico especificando que tiene un documento por descargar.
+17.6 El ejecutivo en el campo oficio Modelo Sello al dar doble click devolverá el valor que corresponda al número de oficio.
+17.6.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del particular.                **asunto**;  la Leyenda Modelo de Sello + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.6.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.6.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.6.4 El ejecutivo CIRE deberá contar con un botón donde podrá cargar el documento .
+17.7 El ejecutivo en el campo Oficio Cuestionarios al dar doble click devolverá el valor que corresponda al número de oficio.
+17.7.1 Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del particular                **asunto**;  la Leyenda Cuestionarios y Control Escolar + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.        
+17.7.2 Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+17.7.3 Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+17.7.4 El ejecutivo CIRE deberá contar con un botón donde cargará el documento.
+18 Tramites Especiales ------- Son trámites como el ADENDO que no cuenta con la totalidad de requisitos específicos para su trámite, hasta que estos nos son analizados por el ejecutivo, aquí es necesario que una vez ingresado el expediente para este trámite el ejecutivo cire pueda marcarle los documentos que debe de presentar, habilitando al particular esos campos para que esté pueda cargar los documentos requeridos.
 19 Usuarios y Perfiles
 19.1 Particular	
 19.1.1 Realizar su registro de solicitud mediante una cuenta de correo.
