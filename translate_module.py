@@ -5,7 +5,7 @@ Module for translating the module numbers.
 import re
 
 x_regex = r'^(?:\d+|X)(?:\.(?:\d+|X)){0,4}'
-text_regex = r' ([A-Z].*)'
+text_regex = r' ([A-Za-z].*)'
 
 
 def translate_x(file_name):
