@@ -194,3 +194,43 @@
 14.X.X          Sólo podrá visualizar los trámites que de acuerdo a su servicio educativo correspondan a este nivel y que el estatus sea NIVEL EDUCATIVO.
 14.X            Dictamen Favorable
 14.X.X          Si el dictamen del nivel educativo es favorable el estatus cambiará PREPARANDO
+15              Asignación de Nombre
+15.X            El ejecutivo solicitará la asignación de nombre.
+15.X            El ejecutivo en el campo Oficio Solicitud Nombre al dar doble click devolverá el valor que corresponda al número de oficio.
+15.X.X          Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular de la Dirección de Estadística.                **asunto**;  la Leyenda Solicitud Asignación de Nombre + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.        
+15.X.X          El sistema deberá contar con un campo donde el ejecutivo pueda cargar el documento Oficio de Asignación de Nombre, una vez cargado el estatus cambiará a ASIGNACIÓN DE NOMBRE registrando la fecha en que el documento sea descargado por el ejecutivo.
+15.X            El sistema deberá contar con un campo donde el ejecutivo cire pueda cargar el NOMBRE ASIGNADO, una vez cargado el estatus cambiará a NOMBRE ASIGNADO. registrando la fecha en que el documento sea cargado por el ejecutivo de la CIRE.
+16              Elaboración de Documento Final Emitido
+16.X            El campo documento final del proceso, es un campo que podrá contar con 5 variantes que podrá seleccionar el ejecutivo.
+16.X            Todas deberán contar con opción de cancelación de número eliminando el registro y dejando libre el número para que este pueda ser asignado nuevamente.
+16.X            Deberán contar con un campo donde se cargue el documento.
+16.X.X          **1 OFicio**                Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS,                debiendo registrar el sistema el **nombre del ejecutivo**                el ejecutivo deberá capturar a quién va **dirigido a**;                el ejecutivo deberá capturar el **asunto**;                el sistema registrará la **Fecha** en que se asigna;                Una vez registrados estos campos el sistema deberá arrojar el  **Número de oficio asignado** guardando el resultado en el campo **documento final emitido**.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con un campo donde el ejecutivo pueda cargar el documento emitido.        
+16.X.X          **2 Negativa**                El campo documento final del proceso, seleccionara la opción de negativa dejando en el campo el valor de NEGATIVA + NÚMERO DE EXPEDIENTE                Se habilitará al ejecutivo un botón para que pueda cargar el oficio de NEGATIVA.                El particular recibirá una notificación especificando que tiene un documento por descargar.                Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.        
+16.X.X          **3 Desistió**                El campo documento final del proceso, seleccionara la opción de desistió dejando en el campo el valor de DESISTIÓ + NÚMERO DE EXPEDIENTE                Se habilitará al ejecutivo un botón para que pueda cargar el oficio de NEGATIVA.        
+16.X.X          **4 Acuerdo**                El número de acuerdo asignado deberá ser un número consecutivo por cada servicio educativo, se deberán registrar en base de datos Bitácora Acuerdos y estará compuesto de la siguiente forma INICIAL(ES)+AÑO+ESTADO+CONSECUTIVO.        
+16.X.X.X        Deberá abrir la base Bitácora Acuerdos
+16.X.X.X        En el campo plantel educativo pondrá el nombre autorizado del plantel + el número de expediente.
+16.X.X.X        Registrará el nombre del ejecutivo
+16.X.X.X        Registrará la fecha                Actualmente existen varias tablas para asignar un número de acuerdo, se sugiere revisar el proceso.        
+16.X.X          **5 Cambio de Representante Legal.**                El número de oficio asignado deberá ser un número consecutivo estará compuesto de la siguiente forma: OFICIO/CR/CONSECUTIVO/AREA/AÑO        
+16.X.X.X        Deberá abrir la base Bitácora CRL
+16.X.X.X        En el campo plantel educativo pondrá el nombre autorizado del plantel + el número de expediente.
+16.X.X.X        Registrará el nombre del ejecutivo
+16.X.X.X        Registrará la fecha
+17              Elaboración de Documento Final Emitido
+17.X            El campo documento final del proceso, es un campo que podrá contar con 5 variantes que podrá seleccionar el ejecutivo.
+17.X            Todas deberán contar con opción de cancelación de número eliminando el registro y dejando libre el número para que este pueda ser asignado nuevamente.
+17.X            Deberán contar con un campo donde se cargue el documento.
+17.X.X          **1 OFicio**                Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS,                debiendo registrar el sistema el **nombre del ejecutivo**                el ejecutivo deberá capturar a quién va **dirigido a**;                el ejecutivo deberá capturar el **asunto**;                el sistema registrará la **Fecha** en que se asigna;                Una vez registrados estos campos el sistema deberá arrojar el  **Número de oficio asignado** guardando el resultado en el campo **documento final emitido**.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con un campo donde el ejecutivo pueda cargar el documento emitido.        
+17.X.X          **2 Negativa** El campo documento final del proceso, seleccionara la opción de negativa dejando en el campo el valor de NEGATIVA + NÚMERO DE EXPEDIENTE                Se habilitará al ejecutivo un botón para que pueda cargar el oficio de NEGATIVA.                El particular recibirá una notificación especificando que tiene un documento por descargar.                Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.        
+17.X.X          **3 Desistió**                El campo documento final del proceso, seleccionara la opción de desistió dejando en el campo el valor de DESISTIÓ + NÚMERO DE EXPEDIENTE                Se habilitará al ejecutivo un botón para que pueda cargar el oficio de NEGATIVA.        
+17.X.X          **4 Acuerdo**                El número de acuerdo asignado deberá ser un número consecutivo por cada servicio educativo, se deberán registrar en base de datos Bitácora Acuerdos y estará compuesto de la siguiente forma INICIAL(ES)+AÑO+ESTADO+CONSECUTIVO.        
+17.X.X.X        Deberá abrir la base Bitácora Acuerdos
+17.X.X.X        En el campo plantel educativo pondrá el nombre autorizado del plantel + el número de expediente.
+17.X.X.X        Registrará el nombre del ejecutivo
+17.X.X.X        Registrará la fecha                Actualmente existen varias tablas para asignar un número de acuerdo, se sugiere revisar el proceso.        
+17.X.X          **5 Cambio de Representante Legal.**                El número de oficio asignado deberá ser un número consecutivo estará compuesto de la siguiente forma: OFICIO/CR/CONSECUTIVO/AREA/AÑO        
+17.X.X.X        Deberá abrir la base Bitácora CRL
+17.X.X.X        En el campo plantel educativo pondrá el nombre autorizado del plantel + el número de expediente.
+17.X.X.X        Registrará el nombre del ejecutivo
+17.X.X.X        Registrará la fecha
