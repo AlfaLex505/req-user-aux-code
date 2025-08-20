@@ -1,0 +1,173 @@
+1               Menú Principal
+2               Bases de Datos
+2.X			    Crear las bases de datos que permitan la captura de particulares y ejecutivos para el seguimiento de los diferentes procesos que maneja esta Coordinación.
+2.X			    Es necesario ver las diferentes bases de datos que existen actualmente
+2.X			    Migrar la información de bases de datos anteriores a fin de mantener el histórico de trámites por cada escuela.
+2.X			    Convertir los diferentes formatos que establecen los instructivos técnicos, a campos de datos que permitan el manejo de información tanto digital como impresa, siendo necesario siempre la creación de dichos formatos.
+2.X			    Configurar los campos de las diferentes bases de datos a fin de establecer los criterios, las características, manejo de datos y la relación entre ellas.
+2.X			    Los requisitos documentales que establezcan los instructivos técnicos podrán ser modificados según la convocatoria, por lo que es necesario ver las características.
+2.X			    La base de datos **proceso**, será la base que resguarde la información de captura del particular, que una vez ingresada la solicitud el particular no podrá modificar ningún campo, a menos que lo habilite el ejecutivo.
+2.X.X			Sin embargo el ejecutivo podrá modificar cualquier campo que requiera modificación a fin de emitir los documentos necesarios, sin embargo, solo el administrador podrá modificar el número de expediente, el tipo de trámite, servicio educativo, fecha de aceptación y el ejecutivo asignado.
+2.X.X			ver características de campos y la relación entre las otras tablas.
+2.X			    Para la base de datos **convocatoria** sólo tendrá acceso el administrador y el jurídico, deberá contar con una pantalla por separado para su captura.
+2.X			    Para la base de datos **Delegaciones** sólo tendrá acceso el administrador y los ejecutivos CIRE, deberá contar con una pantalla por separado para su captura.
+2.X			    Para la base de datos **planeación** sólo tendrá acceso el administrador, deberá contar con una pantalla por separado para su captura.
+2.X			    Para la base de datos **servicios** sólo tendrá acceso el administrador, deberá contar con una pantalla por separado para su captura.
+2.X			    Para la base de datos **usuarios** sólo tendrá acceso el administrador, deberá contar con una pantalla por separado para su captura.
+2.X			    Para la base de datos de **asignación de oficios** deberán tener acceso el Coordinador Cire, administrador, ejecutivos cire, jurídico, y asistente independiente al proceso de incorporación, registrando previamente el nombre ejecutivo, a quien va dirigido, asunto y la fecha, para después arrojar el número de oficio asignado y contar con una pantalla de captura adicional a los expedientes.
+2.X.X			Deberán contar con una pantalla de captura por separado.
+2.X.X			El administrador y asistente tendrán acceso a todos los registros.
+2.X.X			El coordinador, asistente, jurídico y ejecutivos solo verán los registros que a cada uno le correspondan.
+2.X.X			Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, debiendo registrar el sistema el **nombre del ejecutivo** el ejecutivo deberá capturar a quién va **dirigido a**; el ejecutivo deberá capturar el **asunto**; el sistema registrará la **Fecha** en que se asigna; Una vez registrados estos campos el sistema deberá arrojar el  **Número de oficio asignado**. Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
+2.X.X			Deberán contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+2.X			    Para todas las demás la base de datos que se generen sólo tendrá acceso el administrador.
+2.X			    Las características de los campos se detallan en archivo de excel anexo.
+3               Consultas e Informes en formato digital e impreso.
+3.X             El administrador podrá generar consultas y/o reportes de acuerdo a las necesidades del área, entre otros:
+3.X.X		    MIR reporte de trámites aceptados, entre cierto periodo.
+3.X.X		    MIR reporte de documentos emitidos, entre cierto periodo.
+3.X.X		    Reporte tramites (ver formato en excel) el cual deberá poder visualizarse de lo más a lo menos, por año, por tipo de trámite, documentos emitidos, desistidos, desechados, negativas y trámites pendientes. En cada uno de ellos al presionar uno de los resultados se podrá ver el listado de trámites en cuestión.
+3.X.X		    Reporte de trámites asignados por año, por ejecutivo, en cada uno de ellos al presionar uno de los resultados se podrá ver el listado de trámites en cuestión.
+3.X.X		    Reporte de trámites con documentos pendientes a seleccionar Protección Civil, Infejal y/o licencia municipal.
+3.X.X		    Impresión de etiquetas que permitan identificar los expedientes en físico, (ver el formato existente).
+3.X.X		    Tarjeta Informativa digital e impresa, ver formato existe requerido.
+4               Flujo de trámites
+4.X		        PARTICULAR -CIRE -NIVEL EDUCATIVO - ESTADÍSTICA - DAIRE
+4.X.X		    Autorización
+4.X.X		    Reconocimiento de Validez Oficial de Estudios
+4.X		        PARTICULAR -CIRE -NIVEL EDUCATIVO - DAIRE
+4.X.X		    Actualización
+4.X.X		    Adendo
+4.X.X		    Ampliación de Matrícula
+4.X.X		    Ampliación de turno
+4.X.X		    Cambio de domicilio
+4.X.X		    Cambio de Turno
+4.X.X		    Disminución de Matrícula
+4.X.X		    Modificación al plan o programas de estudios (formación para el trabajo)
+4.X.X		    Reapertura
+4.X		        PARTICULAR - CIRE - DAIRE
+4.X.X		    Cambio de Representante Legal
+4.X.X		    Certificación de acuerdo
+4.X.X		    Fe de Erratas
+4.X		        PARTICULAR - CIRE
+4.X.X		    Baja del Plantel Educativo
+4.X.X		    Suspensión del Servicio Educativo
+5               Etapas del Sistema
+5.X		        Una primera etapa de esta Coordinación, es recibir solicitudes por parte de los particulares que desean obtener el Reconocimiento de Validez Oficial de Estudios, la Autorización y/o la Modificación al acuerdo de incorporación, siendo su índice principal el número de expediente.
+5.X		        Una segunda etapa será contar con una base de datos que permita la visualización de solicitudes por escuela, refrendos y becas, así mismo que muestre en pantalla los datos del acuerdo de incorporación y/o su modificación, así como las características del inmueble de lo más o menos, siendo su índice principal la clave de centro de trabajo (CCT).
+6               Generación de plantillas
+6.X		        Una vez que contemos con las bases de datos, será necesario crear las plantillas de tipo correspondencia (actualmente se manejan 97) mismas que deberán estar disponibles para los ejecutivos de acuerdo a su tipo de trámite y servicio educativo.
+6.X		        Las plantillas podrán ser creadas o modificadas por el JURÍDICO o ADMINISTRADOR.
+6.X		        El ejecutivo una vez que haya asignado número de documento final u oficio podrá abrir la plantilla, esta se redirigirá al número de expediente en cuestión, para poder hacer la impresión del documento.
+6.X		        Deberán contar con pantallas donde de acuerdo al tipo de trámite y servicio educativo muestre las plantillas que estén disponibles para la elaboración de documentos.
+6.X		        Al seleccionar la plantilla esta se deberá poder imprimir o descargar, según se requiera.
+7               Formatos de acuerdo al instructivo técnico ------ Los formatos existentes en excel, en sus diferentes trámites y servicios deberán pasar de lo físico a lo digital, adecuando cada uno de ellos para su óptimo manejo. Es indispensable que una vez que esté hecha la captura por el particular, cualquier persona que pueda visualizar el expediente pueda hacer impresión de los formatos.
+7.X		        Formato de Solicitud, sería agregar a la base de datos los campos que sean necesarios y que presente la información requerida por secciones.
+7.X		        En uno de sus apartados deberá mostrar la leyenda que corresponde y obtener el dato que es requerido en el formato.
+7.X		        Formato Asignación de Nombre, adicional a la captura que tenga que hacer el particular, deberá contar con campo donde el particular pueda cargar un documento en pdf que corresponda al complemento de este punto como es la “justificación”
+7.X		        Formato Obligaciones que adquiere el particular, deberá mostrar en pantalla las obligaciones que adquiere el particular y una vez leídas deberá contar con un botón mediante el cual acepte
+7.X.X		    Este formato es diferente para cada servicio educativo por lo cual deberá ser acorde a su solicitud.
+7.X.X		    Deberá estar en un formato en el que de acuerdo a la convocatoria pueda cambiar su contenido el administrador o área jurídica.
+7.X		        Formato Croquis de Ubicación, deberá mostrar la información requerida en el formato y mostrará la ubicación precisa del inmueble a través de google maps.
+7.X		        Formato de Personal Directivo y Docente
+7.X.X		    Este deberá contar con un campo matriz que permita hacer la captura de información y recopilar los documentos que establece el instructivo técnico para cada nivel educativo, por directivo o docente.
+7.X.X		    Cabe mencionar que los requisitos pueden cambiar, según lo establezcan los instructivos técnicos por lo cual, el administrador deberá poder actualizar en caso de ser necesario.
+7.X		        Formatos de Instalaciones
+7.X		        Será importante que todos los campos que sean necesarios cuenten con botones selectores, según se requiera.
+7.X		        Cada vez que se ingrese al apartado de aulas se deberán hacer los cálculos necesarios para sacar el número de alumnos por aula, en apego al instructivo técnico que establece el límite de alumnos por grupo y las medidas requeridas por alumno y docente según el servicio educativo, mismos que se mostraran en pantalla para la toma de decisión.
+7.X		        Igual deberá generar la suma en áreas de esparcimiento, área cívica, asta bandera y áreas recreativas, a fin de realizar el cálculo de alumnos permitidos de acuerdo a la capacidad de las instalaciones, mismos que se mostraran en pantalla para la toma de decisión.
+7.X		        El resultado del total de alumnos en las aulas no podrá ser mayor al total alumnos permitidos de las áreas de esparcimiento, área cívica, asta bandera y áreas recreativas por lo tanto se deberá aplicar la resta entre uno y otro, mismos que se mostraran en pantalla para la toma de decisión.
+7.X		        Deberán cuidar que en la suma de metros cuadrados no rebase la medida del predio y en dado caso de ser así, marcarle el error al particular al momento de la captura
+7.X		        Primeros Auxilios apegado a lo que establece el instructivo técnico.
+7.X		        Formato de Planes y Programas deberá mostrar en pantalla el texto mediante el cual el particular se obliga a cumplir con los planes y programas y una vez leídas deberá contar con un botón mediante el cual se tenga por aceptado.
+7.X.X		    Este formato es diferente para cada servicio educativo por lo cual deberá ser acorde a su solicitud.
+7.X.X		    Deberá estar en un formato en el que de acuerdo a la convocatoria pueda cambiar su contenido el administrador o área jurídica.
+7.X		        Acervo bibliográfico (media superior)
+7.X		        Instalaciones para Virtual (Media superior y Formación para el trabajo)
+7.X		        Formato de Currícula (formación para el trabajo)
+8               Se debe facilitar el registro en línea a los particulares  interesados en impartir Educación Básica, en sus niveles de Inicial, Preescolar, Primaria, así como Secundaria, en sus modalidades General y Técnica, Educación Media Superior, tipo Bachillerato General en sus modalidades Escolarizado, Intensivo Semiescolarizado y Virtual, Bachillerato Tecnológico; Educación Superior Docente, nivel Posgrado; así como formación para el trabajo; ante la Secretaría de Educación Jalisco, con la finalidad de llevar a cabo un proceso administrativo de calidad a través de un sistema digital. De conformidad con las disposiciones establecidas a fin de que los particulares interesados en obtener la incorporación, satisfagan los requisitos documentales, con el propósito de iniciar el proceso administrativo correspondiente.
+8.X             Solicitud
+8.X.X		    Deberá crear un usuario y contraseña para el acceso al sistema.
+8.X.X		    Al momento de generar el usuario y contraseña deberá mostrar al particular una ventana emergente que informe al particular la necesidad, de que sea el titular del trámite quien se registre para crear su solicitud, ya que la aceptación de obligaciones será vía sistema.
+8.X.X		    Podrá crear una nueva solicitud con estatus de PRE REGISTRO.
+8.X.X		    Una vez creada la solicitud por el particular, deberá aparecer un contador de 120 horas para que el particular ENVÍE su solicitud a la CIRE siempre y cuando esté dentro de los tiempos que establezca la convocatoria con la totalidad de requisitos documentales, en caso contrario el sistema eliminará la solicitud.
+8.X.X		    Los trámites que se necesitan hacer en apego a las fechas que establece convocatoria, adicional al contador de la solicitud mencionado en el párrafo anterior, tendrán un doble contador pero en este caso será restando los días en base a la fecha en que cierra la convocatoria, anteponiendo la leyenda “La convocatoria cierra en ”.
+8.X.X		    El particular podrá seleccionar el tipo de trámite, debiendo mostrar los requisitos para el mismo.
+8.X.X		    El particular podrá seleccionar el nivel educativo.
+8.X.X		    El sistema deberá mostrar los campos y formatos que correspondan llenar al particular.
+8.X.X		    Todos los campos de captura y carga de documentos deberán ser obligatorios de acuerdo a los requisitos de cada trámite, salvo aquellos que no se requieran, como son los datos de la persona moral, los datos de la persona autorizada y los datos de la persona designada con base al artículo 40.
+8.X.X		    Para todos los trámites que no sean reconocimiento de validez oficial de estudios o Autorización, al poner la clave de centro de trabajo deberán extraer el nombre del plantel educativo de la base de datos INCORPORACIÓN.
+8.X.X		    Una vez creada la solicitud el particular deberá poder guardar parcialmente la captura y carga de documentos dentro del tiempo que establezca el contador.
+8.X.X		    Una vez que el sistema valida que se realizó la captura y carga de documentos y deberá mostrar la opción de ENVIAR, permita guardar y enviar a la CIRE.
+8.X.X		    Una vez enviado a la CIRE el estatus cambia a REGISTRADA.
+8.X.X		    Toda solicitud deberá contar con un botón donde el particular pueda en cualquier etapa del trámite DESISTIR del mismo, cargando un documento y el sistema notifique al ejecutivo.
+8.X.X		    El campo documento final, el ejecutivo seleccionará la opción de DESISTIÓ dejando en el campo el valor de DESISTIÓ + NÚMERO DE EXPEDIENTE
+8.X             Recepción de la Solicitud - Administrador
+8.X.X		    Recibirá notificación de una solicitud en proceso.
+8.X.X		    Contará con botones para aceptar o rechazar solicitud.
+8.X.X		    El sistema mostrará a través de una ventana emergente el nombre del (los) ejecutivo(s) y el o los número(s) de expediente(s) que hayan atendido a esta escuela.
+8.X.X		    En caso de ser aceptada, el sistema mostrará a través de una ventana emergente la cantidad de trámites que tiene cada ejecutivo de acuerdo al año vigente.
+8.X.X		    El sistema recabará la fecha en que la solicitud ha sido registrada a esta Coordinación.
+8.X.X		    El administrador podrá capturar de forma manual la fecha en que ha sido aceptada su solicitud y el ejecutivo que estará a cargo del expediente.
+8.X.X		    Solo el administrador podrá modificar en todo momento los campos de servicio educativo, ejecutivo y tipo de trámite.
+8.X.X		    Al momento de aceptar el trámite el estatus cambia ACEPTADO POR CIRE y esta pasa al ejecutivo.
+8.X.X		    El sistema mostrará en pantalla los datos del ejecutivo que estará a cargo de su trámite, como su nombre, correo electrónico, teléfono y extensión.
+8.X.X		    El sistema deberá contar con un botón que le permita al particular imprimir su acuse de recibo debiendo contener las características que la CIRE indique.
+8.X             Seguimiento a la solicitud por el ejecutivo.
+8.X.X		    Recibirá una notificación de la solicitud en proceso.
+8.X.X		    Al momento de ingresar al expediente el estatus cambia a VALIDANDO DOCUMENTOS.
+8.X.X		    El ejecutivo al abrir el expediente podrá revisar y modificar cualquiera de los campos que hayan sido capturados por el particular, salvo el tipo de trámite, ejecutivo y fecha de aceptación.
+8.X.X		    En cuanto a los documentos propuestos podrá analizar, aceptar o rechazar, haciendo las observaciones correspondientes en cada uno de ellos.
+8.X.X		    El avance de la revisión por parte del ejecutivo podrá ser total o parcial, pudiendo guardar el avance en cualquier momento.
+8.X.X.X		    Si alguno de los documentos cuenta con observaciones, este se marcará como rechazado, solo los campos marcados por el ejecutivo se habilitarán al particular para que pueda modificarlos.
+8.X.X.X		    El ejecutivo en el campo número de oficio de 5 días al dar doble click devolverá el valor que corresponda al número de oficio.
+8.X.X.X.X       Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos: en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite. en **dirigido a**; el nombre del titular del trámite; **asunto**;  la Leyenda OFICIO DE 5 DÍAS + NÚMERO EXPEDIENTE; **Fecha**; fecha en que se asigna; **Número**; el número consecutivo.; Considerando los lineamientos que establece la Secretaría para la creación de números de oficio. Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+8.X.X		    Se habilitará al ejecutivo un botón para que pueda cargar el oficio de 5 días, así como la fecha de vencimiento que será establecida por el mismo y será visible para ambas partes, emitiendo la notificación correspondiente al vencimiento, el estatus cambiará a OFICIO DE 5 DÍAS.
+8.X.X		    El particular recibirá una notificación especificando que tiene un documento por descargar.
+8.X.X		    Al momento que el particular abra o descargue el documento se deberá registrar la fecha en el campo fecha notificación 5 días.
+8.X.X		    El sistema deberá contar con un campo donde el particular pueda cargar el oficio de respuesta, una vez cargado el estatus cambiará a OBSERVACIONES SUBSANADAS registrando la fecha en que el documento sea descargado por el ejecutivo de la CIRE.
+8.X.X		    En caso de que el particular no cumpla dentro de la fecha establecida el trámite podrá ser desechado cambiando el estatus a DESECHADO.
+8.X.X		    Para que el ejecutivo en el campo documento final emitido al dar doble click seleccionara la opción de oficio y se devolverá el valor que corresponda al número de oficio.
+8.X.X.X		    Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos: en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite. en **dirigido a**; el nombre del titular del trámite **asunto**;  la Leyenda DESECHADO + NÚMERO EXPEDIENTE; **Fecha**; fecha en que se asigna; **Número**; el número consecutivo. Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.       Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
+8.X.X		    En caso de que el particular desee continuar con el trámite deberá cargar los documentos y un oficio especificando que ha cumplido con los documentos observados.
+8.X.X		    El estatus del trámite cambiará a VALIDACIÓN DE DOCUMENTOS.
+8.X.X		    El ejecutivo recibirá una notificación de la actualización de documentos.
+8.X.X		    Al momento que el ejecutivo abra o descargue el documento se deberá registrar la fecha en el campo de fecha subsana 5 días.
+8.X.X		    El ejecutivo realizará la revisión y podrá aceptar o rechazar.
+8.X.X.X		    En caso de que el particular no cumpla requisitos documentales, el estatus cambia a DESECHADO.
+8.X.X.X		    El ejecutivo en el campo documento final emitido al dar doble click seleccionara la opción de oficio y se devolverá el valor que corresponda al número de oficio.
+8.X.X.X.X       Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos: en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                        en **dirigido a**; el nombre del titular del trámite                        **asunto**;  la Leyenda DESECHADO + NÚMERO EXPEDIENTE                        **Fecha**; fecha en que se asigna                        **Número**; el número consecutivo.                        Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                        Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente. 
+8.X.X		    En caso de que el particular no cumpla requisitos documentales, el estatus cambia a DESECHADO.
+8.X.X		    Se habilitará al ejecutivo un botón para que pueda cargar el oficio de desechado.
+8.X.X		    El particular recibirá una notificación especificando que tiene un documento por descargar.
+8.X.X		    Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.
+9               SI CUMPLE
+9.X		        Si el trámite cumple con los requisitos establecidos el estatus cambiará PREPARANDO OFICIO DE VISITA
+9.X		        El ejecutivo en el campo Oficio Solicitud 1a Visita al dar doble click devolverá el valor que corresponda al número de oficio.
+9.X.X		    Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos: en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular nivel educativo.                **asunto**;  la Leyenda Solicitud de 1a Visita + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.        
+9.X		        El sistema deberá contar con un campo donde el ejecutivo pueda cargar el oficio de solicitud de 1a visita, una vez cargado el estatus cambiará a NIVEL EDUCATIVO registrando la fecha en que el documento sea descargado por el ejecutivo del nivel.
+10              Proceso del Nivel Educativo
+10.X		    Recibirá notificación por cada movimiento que le sea asignado.
+10.X		    Sólo podrá visualizar los trámites que de acuerdo a su servicio educativo correspondan a este nivel y que el estatus sea NIVEL EDUCATIVO.
+10.X		    Sólo tendrá acceso de lectura para poder visualizar el expediente del particular.
+10.X		    El nivel educativo puede contar con supervisores en todo el Estado, por lo que es necesario que la empresa que desarrolla el sistema encuentre la forma de que el ejecutivo del nivel pueda dar acceso al supervisor a fin de compartir el expediente y que este pueda validar la información asentada por el particular.
+10.X		    El sistema deberá contar con un campo donde el ejecutivo CIRE pueda cargar el oficio de respuesta 1a visita, una vez cargado el estatus cambiará a RESPUESTA DE VISITA registrando la fecha en que el documento sea cargado por el ejecutivo de la CIRE.
+10.X		    El ejecutivo de la CIRE, revisa si el dictamen fue favorable o no favorable.
+11              Dictamen no favorable
+11.X		    Elabora OFICIO DE 10 DÍAS.
+11.X		    El ejecutivo de la CIRE podrá rechazar los documentos observados en la visita para que el particular los vuelva a cargar.
+11.X		    El ejecutivo en el campo número de oficio de 10 días al dar doble click devolverá el valor que corresponda al número de oficio.
+11.X.X		    Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular del trámite                **asunto**;  la Leyenda OFICIO DE 10 DÍAS + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.        
+11.X		    Se habilitará al ejecutivo un botón para que pueda cargar el oficio de 10 días, así como la fecha de vencimiento que será establecida por el mismo y será visible para ambas partes, emitiendo la notificación correspondiente al vencimiento, el estatus cambiará a OFICIO DE 10 DÍAS.
+11.X		    El particular recibirá una notificación especificando que tiene un documento por descargar.
+11.X		    Al momento que el particular abra o descargue el documento se deberá registrar la fecha en el campo fecha notificación 10 días.
+11.X		    El sistema deberá contar con un campo donde el particular pueda cargar el oficio de respuesta, una vez cargado el estatus cambiará a OBSERVACIONES SUBSANADAS registrando la fecha en que el documento sea descargado por el ejecutivo de la CIRE.
+11.X		    El ejecutivo, revisa y el estatus cambia a VALIDANDO OBSERVACIONES.
+11.X		    El ejecutivo recibirá una notificación de la actualización de documentos.
+11.X		    El ejecutivo realizará la revisión y podrá aceptar o rechazar.
+11.X.X		    El ejecutivo en el campo documento final emitido al dar doble click seleccionara la opción de oficio y se devolverá el valor que corresponda al número de oficio.
+11.X.X.X        Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                        en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                        en **dirigido a**; el nombre del titular del trámite                        **asunto**;  la Leyenda DESECHADO + NÚMERO EXPEDIENTE                        **Fecha**; fecha en que se asigna                        **Número**; el número consecutivo.                        Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                        Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.            
+11.X.X		    En caso de que el particular no cumpla requisitos documentales dentro de la fecha establecida el estatus cambia a DESECHADO.
+11.X		    Se habilitará al ejecutivo un botón para que pueda cargar el oficio de desechado.
+11.X		    El particular recibirá una notificación especificando que tiene un documento por descargar.
+11.X		    Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.
