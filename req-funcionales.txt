@@ -171,3 +171,26 @@
 11.X		    Se habilitará al ejecutivo un botón para que pueda cargar el oficio de desechado.
 11.X		    El particular recibirá una notificación especificando que tiene un documento por descargar.
 11.X		    Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.
+12              SI EL PARTICULAR CUMPLE
+12.X            Si el trámite cumple con los requisitos establecidos el estatus cambiará PREPARANDO OFICIO DE VISITA
+12.X            El ejecutivo en el campo Oficio Solicitud 2a Visita al dar doble click devolverá el valor que corresponda al número de oficio.
+12.X.X          Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular nivel educativo.                **asunto**;  la Leyenda Solicitud de 2a Visita + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.        
+12.X            El sistema deberá contar con un campo donde el ejecutivo pueda cargar el oficio de solicitud de 2a visita, una vez cargado el estatus cambiará a NIVEL EDUCATIVO registrando la fecha en que el documento sea descargado por el ejecutivo del nivel.
+12.X            El nivel educativo recibirá una notificación en cuanto a la visita asignada.
+12.X            El sistema deberá contar con un campo donde el ejecutivo pueda cargar el oficio de respuesta 2a visita, una vez cargado el estatus cambiará a RESPUESTA DE VISITA registrando la fecha en que el documento sea descargado por el ejecutivo de la
+13              NO PROCEDE
+13.X            En caso de que el particular no cumpla requerimientos para la creación del nuevo plantel educativo el estatus cambia a NEGATIVA.
+13.X            El campo documento final del proceso, seleccionara la opción de negativa dejando en el campo el valor de NEGATIVA + NÚMERO DE EXPEDIENTE
+13.X            Se habilitará al ejecutivo un botón para que pueda cargar el oficio de NEGATIVA.
+13.X            El particular recibirá una notificación especificando que tiene un documento por descargar.
+13.X            Al momento que el particular abra o descargue el documento se deberá registrar la fecha del movimiento.
+14              RECONSIDERACIÓN 
+14.X            Una vez emitido el dictamen la CIRE puede solicitar una reconsideración al nivel educativo.
+14.X            El ejecutivo en el campo Oficio Solicitud Refrendo al dar doble click devolverá el valor que corresponda al número de oficio.
+14.X.X          Para ello el sistema abrirá la base de datos ASIGNACIÓN OFICIOS, plasmando los siguientes datos:                en **Ejecutivo**; el nombre del ejecutivo que lleva el trámite.                en **dirigido a**; el nombre del titular nivel educativo.                **asunto**;  la Leyenda Reconsideración + NÚMERO EXPEDIENTE                **Fecha**; fecha en que se asigna                **Número**; el número consecutivo.                Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.                Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.        
+14.X            El sistema deberá contar con un campo donde el ejecutivo pueda cargar el oficio de solicitud de 1a visita, una vez cargado el estatus cambiará a NIVEL EDUCATIVO registrando la fecha en que el documento sea descargado por el ejecutivo del nivel.
+14.X            Proceso del Nivel Educativo
+14.X.X          Recibirá notificación por cada movimiento que le sea asignado
+14.X.X          Sólo podrá visualizar los trámites que de acuerdo a su servicio educativo correspondan a este nivel y que el estatus sea NIVEL EDUCATIVO.
+14.X            Dictamen Favorable
+14.X.X          Si el dictamen del nivel educativo es favorable el estatus cambiará PREPARANDO
