@@ -255,3 +255,59 @@
 18.X.X          Considerando los lineamientos que establece la Secretaría para la creación de números de oficio.
 18.X.X          Deberá contar con una opción que permita cancelar el número y borrar la información, dejando el número libre para que este pueda ser asignado nuevamente.
 18.X.X          El ejecutivo CIRE deberá contar con un botón donde cargará el documento.
+19              Usuarios y Perfiles
+19.X            Particular	
+19.X.X          Realizar su registro de solicitud mediante una cuenta de correo.
+19.X.X          Presentar el expediente que contenga la totalidad de requisitos documentales.
+19.X.X          Recibir acuse de recibido una vez aceptado su trámite.
+19.X.X          Consultar notificaciones.
+19.X.X          Consulta en el avance de su trámite línea de progreso.
+19.X            Ejecutivo	
+19.X.X          Captura en sistema,
+19.X.X          Consulta del expediente.
+19.X.X          Digitalización de imágenes.
+19.X.X          Captura y modificación de datos.
+19.X.X          Captura de observaciones al expediente del particular.
+19.X.X          Registro de números de oficio
+19.X.X          Asignación de números de acuerdo
+19.X.X          Elaboración de documentos en plantilla.
+19.X            Nivel Educativo	
+19.X.X          Solicitud de Visita.
+19.X.X          Consulta de expedientes en trámite.
+19.X.X          Consultar notificaciones.
+19.X.X          Adjuntar oficios de refrendo.
+19.X            Dirección de Estadística	
+19.X.X          Asignación de Nombre.
+19.X.X          Consultar notificaciones.
+19.X            Área de Control Escolar	
+19.X.X          Consultar notificaciones.
+19.X.X          Visualización de base de datos por escuela.
+19.X            Dirección de Becas	
+19.X.X          Consultar notificaciones.
+19.X.X          Adjuntar oficios de Becas.
+19.X            Delegación Regional	
+19.X.X          Consultar notificaciones.
+19.X            Director	
+19.X.X          Consulta de expedientes.
+19.X.X          Visualizar reportes estadísticos digitales e impresos.
+19.X            Coordinador	
+19.X.X          Consulta de expedientes.
+19.X.X          Registro de números de oficio
+19.X.X          Visualizar reportes estadísticos digitales e impresos.
+19.X.X          Ajuste de roles.
+19.X.X          Configuración de calendarios.
+19.X            Administrador	
+19.X.X          Control de alta, baja o cambios en el rol de ejecutivos
+19.X.X          Recibir, asignar, distribuir  y modificar solicitudes
+19.X.X          Consulta de expedientes.
+19.X.X          Crear consultas e informes según se requiera. 
+19.X.X          Visualizar reportes estadísticos digitales e impresos
+19.X.X          Monitoreo y seguimientos de procesos y trámites.
+19.X.X          Ajuste de permisos de usuarios.
+19.X.X          Autorización y administración de procesos.
+19.X.X          Configuración de calendarios de convocatoria.
+19.X.X          Ajuste o modificación de plantillas.
+19.X.X          Ajustes en los requisitos documentales.
+19.X            Asistente	
+19.X.X          Consulta de expedientes.
+19.X.X          Registro de números de oficio.
