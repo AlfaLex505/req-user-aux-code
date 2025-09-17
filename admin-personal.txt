@@ -1,0 +1,144 @@
+1           Menu Principal
+2           Módulo - Generación de Formatos (Basado en FileMaker)
+2.X         Submódulo - Consulta histórico de trámites
+2.X.X       Sección - Datos del Empleado
+Por default, se mostrará la información de la última Clave Presupuestal del Empleado, sin embargo, podrá seleccionarse la visualización de la siguiente información tras seleccionar a través de sus filtros (si aplica), otra Clave Presupuestal. 
+2.X.X.X     CURP
+2.X.X.X     RFC
+2.X.X.X     Estatus del Empleado
+2.X.X.X     Nombre
+2.X.X.X     Fecha de Ingreso
+2.X.X.X     Teléfono
+2.X.X.X     Categoría Puesto
+2.X.X.X     Claves Presupuestales
+2.X.X.X     Clave Centro de trabajo
+2.X.X.X     Centro de trabajo Adscrito a:
+2.X.X.X     Antigüedad
+2.X.X.X     Interrupciones
+2.X.X       Sección - Íconos Principales ("Digitaliza Documentos")
+2.X.X.X     Subsección - Ícono Buscar
+2.X.X.X     Subsección - Ícono Solicitud de Trámite
+2.X.X.X     Subsección - Ícono Muestra Documentos
+2.X.X.X     Subsección - Ícono Regresar
+2.X.X.X     Subsección - Ícono Ayuda
+2.X.X       Sección - Histórico de Trámites
+2.X.X.X     Subsección - Constancias
+2.X.X.X.X   Folio
+2.X.X.X.X   Fecha
+2.X.X.X.X   Observaciones
+2.X.X.X     Subsección - Formato Único
+2.X.X.X.X   Folio
+2.X.X.X.X   Fecha
+2.X.X.X.X   Asunto
+2.X.X.X.X   Observaciones
+2.X.X.X     Subsección - Licencias SGS
+2.X.X.X.X   Folio
+2.X.X.X.X   Fecha
+2.X.X.X.X   Movimiento
+2.X.X.X     Subsección - Quinquenios
+2.X.X.X.X   Folio
+2.X.X.X.X   Fecha
+2.X.X.X.X   Observaciones
+2.X         Submódulo - Solicitud de trámites
+2.X.X       Sección - Información del Trabajador
+2.X.X.X     CURP
+2.X.X.X     RFC
+2.X.X.X     Fecha de Solicitud
+2.X.X.X     Solicita
+2.X.X.X     Fecha probable de entrega
+2.X.X.X     Categoría de Puesto
+2.X.X.X     Adscrito a Centro de Trabajo
+2.X.X.X     Fecha de Ingreso
+2.X.X.X     Licencias Solicitadas
+2.X.X       Sección - Trámites Realizados
+2.X.X.X     Folio
+2.X.X.X     Fecha
+2.X.X.X     Trámite
+2.X.X       Sección - Trámite Solicitado
+2.X.X.X     Constancia de Servicio
+2.X.X.X     Carrera Magisterial
+2.X.X.X     Hoja de Servicio
+2.X.X.X     Jubilación
+2.X.X.X     Escalofón Mixto
+2.X.X.X     Pensión
+2.X.X.X     Pago de Marcha
+2.X.X.X     Aportación Voluntaria a Pensiones del Estado
+2.X.X.X     A Nivel Superior
+2.X.X.X     Estímulo
+2.X.X.X     Gratificación por Jubilación
+2.X.X.X     Pago por Renuncia
+2.X.X.X     Constancia de Servicio
+2.X.X.X     Estudios
+2.X.X.X     VISA
+2.X.X.X     Antigüedad
+2.X.X.X     Titulación
+2.X.X.X     Servicio Social
+2.X.X.X     Escalofón Interno
+2.X.X.X     A Nivel Superior
+2.X.X.X     Recategorización
+2.X.X.X     Promoción
+2.X.X.X     Quinquenios
+2.X.X.X     Nombramiento
+2.X.X.X     Formato Único
+2.X.X.X     Estímulos Normales
+2.X.X.X     Otro
+2.X.X       Sección - Documentos Solicitados
+2.X.X.X     Acta de Nacimiento
+2.X.X.X     INE
+2.X.X.X     CURP
+2.X.X.X     Certificado Médico
+2.X.X.X     Cartilla de Servicio Militar
+2.X.X.X     Constancia de Estudios
+2.X.X.X     Fotografías
+2.X.X.X     Carta Policía
+2.X.X.X     Carta No Sanción administrativa
+2.X.X.X     Nombramientos
+2.X.X.X     Cambios de Adscripción
+2.X.X.X     Continuación Nombramientos
+2.X.X.X     Basificación
+2.X.X.X     Licencia Diversas
+2.X.X.X     Bajas Diversas
+2.X.X.X     Seguro de Vida
+2.X.X.X     Altas Adicionales
+2.X.X.X     Firma de Documentos
+2.X.X.X     Otro
+2.X         Submódulo - Elabora Licencia SGS
+2.X.X       Datos del Empleado
+2.X.X.X     CURP
+2.X.X.X     RFC
+2.X.X.X     Folio
+2.X.X.X     Fecha
+2.X.X.X     Nombre
+2.X.X.X     Movimiento
+2.X.X.X     Concepto
+2.X.X.X.X   Prórroga
+2.X.X.X.X.X Licencias or Asuntos Personales
+2.X.X.X.X.X Por Pasar a Otro Empleo
+2.X.X.X.X   En caso de Prórroga
+2.X.X.X.X.X Prórroga L.S.G.S.
+2.X.X.X     Ingreso al Servicio
+2.X.X.X     Categoría de Puesto
+2.X.X.X     Centro de trabajo
+2.X.X.X     Clave Presupuestal Seleccionada
+2.X.X.X     Claves Presupuestales
+2.X.X.X     Antigüedad
+2.X.X.X.X   Años de Servicio
+2.X.X.X.X   Meses de Servicio
+2.X.X.X.X   Días de Servicio
+2.X.X.X     Antigüedad Real
+2.X.X.X.X   Años de Servicio
+2.X.X.X.X   Meses de Servicio
+2.X.X.X.X   Días de Servicio
+2.X.X.X     Tiene derecho a Licencia SGS  por:
+2.X.X.X     Tiempo que Solicita
+2.X.X.X     Tiempo que se puede autorizar
+2.X.X.X     Tiempo concedido con anterioridad
+2.X.X.X     periodo
+2.X.X.X     Procede
+2.X.X.X     Observaciones
+2.X.X.X     Elaboró
+2.X         Submódulo - Elabora Quinquenio
+
+
+2.X         Submódulo - Elabora Formato Único
+2.X         Submódulo - Estadísticas
