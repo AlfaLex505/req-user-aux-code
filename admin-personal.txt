@@ -193,4 +193,186 @@ Indica el numero de tramites que se han hecho desde la creacion del sistema. Act
 Se debe poder crear un modulo de estadisticas capaz de Filtrar por:
 2.X.X        Fecha Anio/Mes
 2.X.X        Tipo de Tramite
-3           Módulo - Generación de Formatos (Basado en FileMaker)
+3            Módulo - Configuracion
+3.X          Submódulo - Leyendas en Formatos
+3.X.X        Campo - Frase Anual
+3.X.X        Campo - Titular de Recursos Humanos
+3.X.X        Campo - Titular Archivo
+3.X.X.X      Submodulo - Reinicia Folios
+Encargado de aplicar los cambios hechos en Leyendas en Formatos para comenzar con un nuevo Folio perteneciente al año.
+El sistema debe realizar anualmente y de forma automática un respaldo en Base de Datos de todos los formatos creados, y asignarles su etiqueta/identificador/columna perteneciente al año de su creación. 
+A su vez, al Reiniciar Folio, debe realizarse un respaldo en Base de Datos, siguiendo las mismas consideraciones del respaldo anual automático.
+4            Descripcion de Formatos de Solicitud
+4.X          SOLICITUD PARA HOJA DE SERVICIO
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        SOLCITUD PARA HOJA DE SERVICIO
+4.X.X        Nombre <Campo de Texto>
+4.X.X        R.F.C. <Campo de Texto>
+4.X.X        Categoría <Campo de Texto>
+4.X.X        Escuela <Campo de Texto> Número <Campo de Texto>
+4.X.X        Clave de C.T. <Campo de Texto>
+4.X.X        Fecha de Ingreso <Campo de Texto> Tel. Part. <Campo de Texto>
+4.X.X        Fecha de Trámite <Campo de Texto> Correo Electrónico <Campo de Texto>
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        TIPO DE TRÁMITE
+4.X.X.X      Jubilación <Checkbox>
+4.X.X.X      Pensión <Checkbox>
+4.X.X.X      Pago de Marcha <Checkbox>
+4.X.X.X      Pago de Seguro por Pensión <Checkbox>
+4.X.X.X      Pago de Pensión por Orfandad <Checkbox>
+4.X.X.X      Aportación Voluntaria a Pensiones <Checkbox>
+4.X.X.X      Pensión por Viudez <Checkbox>
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        NIVEL SUPERIOR (NORMALES)
+4.X.X.X      Estímulo <Checkbox>
+4.X.X.X      Gratificación por Jubilación <Checkbox>
+4.X.X.X      Pago de Pensión por Orfandad <Checkbox>
+4.X.X.X      Pago por defunción <Checkbox>
+4.X.X.X      Pago por Renuncia <Checkbox>
+4.X.X        Anexar 2 Fotografías Tamaño Infantil por Plaza y Comprobante de Pago
+4.X.X.X      Para trámite de Jubilación: Si cubrió interinato por maternidad anteriores al nombramiento de base, favor de anexar copias de los nombramientos.
+4.X.X.X      En caso de haber reingresado al servicio favor de notificarlo.
+4.X.X.X      En caso de haber trabajado en otra(s) dependencia(s), anexar constancia(s) de la(s) misma(s)
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X.X      Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        REGISTRO Y ARCHIVO AREA DE ADMINISTRACION DE PERSONAL
+4.X.X        A nombre de <Campo de Texto>
+4.X.X        Recibí trámite de Hoja de Servicio Para
+4.X.X.X      Jubilación <Checkbox>
+4.X.X.X      Pensión <Checkbox>
+4.X.X.X      Pago de Marcha <Checkbox>
+4.X.X.X      Pago de seguro por Pensión <Checkbox>
+4.X.X.X      Pensión por Viudez <Checkbox>
+4.X.X.X      Aportación Voluntaria a Pensiones <Checkbox>
+4.X.X.X      Pensión por Orfandad <Checkbox>
+4.X.X.X      Estímulo <Checkbox>
+4.X.X.X      Gratificación por jubilación <Checkbox>
+4.X.X.X      Pago por defunción <Checkbox>
+4.X.X.X      Pago por renuncia <Checkbox>
+4.X.X        USO EXCLUSIVO PERSONAL DE VENTANILLA
+4.X.X        Fecha Probable de Entrega: <Domicilio: Av. Alcalde No. 1855, 7’ PISO: Campo de Texto>
+4.X.X        INDISPENSABLE PRESENTAR ESTE TALON PARA ENTREGA DE LA HOJA DE SERVICIO
+4.X          HOJA DE SERVICIO
+4.X.X        Descripción del Formato
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        Gobierno del Estado de Jalisco
+4.X.X        Secretaría de Educación Jalisco
+4.X.X        Dirección General de Personal
+4.X.X        HOJA DE SERVICIO
+4.X.X        Fotografía: <Campo de imagen>
+4.X.X        Nombre: <Campo de Texto, formato de tabla>
+4.X.X        RFC: <Campo de Texto, formato de tabla>
+4.X.X        Folio: <Campo de Texto, formato de tabla>
+4.X.X        Fecha de Ingreso : <Campo de Texto, formato de tabla>
+4.X.X         de Egreso : <Campo de Texto, formato de tabla>
+4.X.X        Nombramiento : <Campo de Texto, formato de tabla>
+4.X.X        Años (Tiempo de Servicio) : <Campo de Texto, formato de tabla>
+4.X.X        Meses (Tiempo de Servicio) : <Campo de Texto, formato de tabla>
+4.X.X        Días (Tiempo de Servicio) : <Campo de Texto, formato de tabla>
+4.X.X        Cómputo Total: <Campo de Texto, formato de tabla>
+4.X.X        Cómputo Total Con Letra: <Campo de Texto, formato de tabla>
+4.X.X        Guadalajara, Jalisco a <Campo de Texto> de <Campo de Texto> de 20<Campo de Texto>
+4.X.X        Certifico que la presente Hoja de Servicio fue formulada con los antecedentes que obran en los Archivos de esta Dependencia.
+4.X.X        <Campo de Texto>
+4.X.X        Eleuterio Alfredo Calvario Valdez
+4.X.X        Registro y Archivo
+4.X.X        Área de Administración de Personal
+4.X.X        Elaboró
+4.X.X        <Campo de Texto>
+4.X.X        José de Jesús Jauregui Sandoval
+4.X.X        Registro y Archivo
+4.X.X        Área de Administración de Personal
+4.X.X        Autorizó
+4.X.X        Este documento puede contener datos personales de acuerdo a lo establecido en el artículo 3, fracciones IX y X de la Ley de protección de Datos Personales en Posesión de Sujetos Obligados de Estado de Jalisco y sus Municipios, así como información confidencial al artículo 21 de la ley de Transparencia y Acceso a la información Pública del Estado de Jalisco y sus Municipios.
+Atendiendo a lo establecido por el artículo 72 de la citada Ley de Protección de Datos Personales el receptor, que adquiere el carácter de responsable, de los datos personales deberá tratar los mismos
+comprometiéndose a garantizar su confidencialidad y únicamente utilizarlos para fines que se le  fueron transferidos. El tratamiento de esta información deberá cumplir en todo momento con las disposiciones antes señaladas, por lo que cualquier transferencia o tratamiento de los datos por personas o entidades distintas a las dirigidas se encuentra prohibido, salvo las excepciones contempladas en los artículos 15 y 75 de la Ley de Protección de Datos Personales en Posesión de Sujetos Obligados del Estado de Jalisco y sus Municipios.
+4.X          SOLICITUD PARA CONSTANCIA DE SERVICIO
+4.X.X        Descripción del Formato
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        SOLICITUD PARA CONSTANCIA DE SERVICIO
+4.X.X        Nombre <Campo de Texto>
+4.X.X        R.F.C. <Campo de Texto>
+4.X.X        Categoría <Campo de Texto>
+4.X.X        Escuela <Campo de Texto> Número <Campo de Texto>
+4.X.X        Clave del C.T. <Campo de Texto>
+4.X.X        Fecha de Ingreso <Campo de Texto> Tel. Part. <Campo de Texto>
+4.X.X        Fecha de Trámite <Campo de Texto>
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        TIPO DE TRAMITE
+4.X.X.X      Estudios <Checkbox>
+4.X.X.X      Titulación <Checkbox>
+4.X.X.X      Visa <Checkbox>
+4.X.X.X      Antigüedad <Checkbox>
+4.X.X.X      Servicio Social <Checkbox>
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        NIVEL SUPERIOR (NORMALES)
+4.X.X.X      Promoción <Checkbox>
+4.X.X.X      Recategorización <Checkbox>
+4.X.X        ANEXAR 1 FOTOGRAFIA TAMAÑO INFANTIL POR PLAZA Y COMPROBANTE DE PAGO
+4.X.X        EN CASO DE HABER REINGRESADO AL SERVICIO FAVOR DE NOTIFICARLO
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        DEPARTAMENTO DE REGISTRO Y CONTROL
+4.X.X        A Nombre de <Campo de Texto>
+4.X.X        Recibí trámite de Constancia de Servicio para
+4.X.X.X      Estudios
+4.X.X.X      Titulación
+4.X.X.X      Promoción
+4.X.X.X      Visa
+4.X.X.X      Antigüedad
+4.X.X.X      Servicio Social
+4.X.X.X      Recategorización
+4.X.X        <USO EXCLUSIVO PERSONAL DE VENTANILLA: Subrayado en negro>
+4.X.X        Fecha probable de Entrega: <Domicilio: Av. Alcalde No. 1855, 7 Piso: Campo de Texto>
+4.X.X        <INDISPENSABLE PRESENTAR ESTE TALON PARA ENTREGA DE LA CONSTANCIA DE SERVICIO: Subrayado en negro>
+4.X          FORMATO LICENCIA SIN GOCE DE SUELDO
+4.X.X        Descripción del Formato
+4.X.X        Escudo del Gobierno del Estado de Jalisco.
+4.X.X        Escudo de la Secretaría de Educación de Jalisco.
+4.X.X        Zapopan, Jalisco a <Fecha de emisión del documento>
+4.X.X        Juan Carlos Flores Miramontes
+4.X.X        Secretario de Educación
+4.X.X        Presente
+4.X.X        AT “N: Nancy Fabiola Franco Rocha”
+4.X.X        Directora General de Personal
+4.X.X        El (la) que suscribe <Campo de texto>
+4.X.X        Adscrito(a) a <Campo de texto>  Clave del C.T. <Campo de texto>
+4.X.X        Con plaza de <Campo de texto>
+4.X.X        Clave(s) de cobro <Campo de texto>
+4.X.X        Turno <Campo de texto>   Carga horaria <Campo de texto> Sostenimiento <Campo de texto>
+4.X.X        Asignatura(s) o especialidad <Campo de texto>
+4.X.X        Se permite presentar a Usted, solicitud de: 
+4.X.X        Licencia sin goce de sueldo: 
+4.X.X.X      Inicial <Checkbox> o prórroga <Checkbox>
+    - Por pasar a otro empleo <Checkbox>
+    - Sin goce de sueldo <Checkbox>
+    - Por beca en el extranjero <Checkbox>
+    - Por asuntos particulares, aplica en sost. federalizado
+
+Con efectos a partir del <Campo de texto> hasta <Campo de texto>
+
+Sin otro particular de momento, agradezco la atención al presente.
+
+ATENTAMENTE
+
+C. <Campo de texto> NOMBRE Y FIRMA
+
+Datos adicionales del trabajador:
+
+- Número de seguridad social (11 dígitos) <Campo de texto> Teléfono móvil <Campo de texto>
+- Domicilio <Campo de texto> Colonia <Campo de texto> C.P. <Campo de texto>
+- Municipio <Campo de texto> Correo electrónico <Campo de texto>
+
+
+
+4.X          FORMATO LICENCIA CON GOCE DE SUELDO
+4.X          RECRECTIFICACION DE NOMBRE RFC Y/O CURP
+4.X          SOLICITUD PARA TRAMITE DE QUINQUENIO
+4.X          TRAMITE DE REGULARIZACION DE LICENCIATURA MAESTRIA DOCTORADO 
