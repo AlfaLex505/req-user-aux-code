@@ -138,7 +138,40 @@ Por default, se mostrará la información de la última Clave Presupuestal del E
 2.X.X.X     Observaciones
 2.X.X.X     Elaboró
 2.X         Submódulo - Elabora Quinquenio
-
-
+2.X.X       Sección - Datos del Empleado
+2.X.X.X     RFC
+2.X.X.X     CURP
+2.X.X.X     Nombre
+2.X.X.X     Fecha de Ingreso
+2.X.X.X     Clave Centro de Trabajo
+2.X.X.X     Clave Presupuestal
+2.X.X.X     Categoría Puesto
+2.X.X.X     Antigüedad
+2.X.X.X     Interrupciones
+2.X.X.X     Quinquenio Pagado
+2.X.X.X     Quinquenio a Pagar
+2.X.X.X     Fecha de Tramites
+2.X.X.X     Tipo de Trámite
+2.X.X.X.X   Doctorado
+2.X.X.X.X   Licenciatura
+2.X.X.X.X   Maestría
+2.X.X.X     Concepto a Pagarse
+2.X.X.X     Observaciones
 2.X         Submódulo - Elabora Formato Único
+2.X.X       Sección - Datos del Empleado
+2.X.X.X     CURP
+2.X.X.X     RFC
+2.X.X.X     Folio
+2.X.X.X     Clave Presupuestal
+2.X.X.X     Datos Modificados
+2.X.X.X     Fecha de Ingreso
+2.X.X.X     Fecha de Defunción
+2.X.X.X     Causa de Defunción
+2.X.X.X     Datos Corregidos
+2.X.X.X     Elaboró
+2.X.X.X     Observaciones
+2.X.X.X     Nombre
+2.X.X.X     Dirección
+
+
 2.X         Submódulo - Estadísticas
