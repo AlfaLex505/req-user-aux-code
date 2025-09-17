@@ -172,6 +172,25 @@ Por default, se mostrará la información de la última Clave Presupuestal del E
 2.X.X.X     Observaciones
 2.X.X.X     Nombre
 2.X.X.X     Dirección
-
-
+2.X.X.X.X   Numero Exterior
+2.X.X.X.X   Numero Interior
+2.X.X.X.X   Estado
+2.X.X.X.X   Codigo Postal
+2.X.X.X     Lugar de Nacimiento
+2.X.X.X     Sexo
+2.X.X.X     Estado Civil
+2.X.X.X     Nombramiento
+2.X.X.X     Adscrito a:
+2.X.X.X     Telefono
+2.X.X.X     Clave Centro de Trabajo
 2.X         Submódulo - Estadísticas
+Indica el numero de tramites que se han hecho desde la creacion del sistema. Actualmente se contabilizacn:
+2.X.X        Constancias
+2.X.X        Formato Unico
+2.X.X        Licencia SGS
+2.X.X        Quinquenio
+2.X.X        Hoja de Servicio
+Se debe poder crear un modulo de estadisticas capaz de Filtrar por:
+2.X.X        Fecha Anio/Mes
+2.X.X        Tipo de Tramite
+3           Módulo - Generación de Formatos (Basado en FileMaker)
